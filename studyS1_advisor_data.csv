@@ -1,0 +1,196 @@
+advisor,advisornum,advisorThrow0,advisorThrow1,advisorThrow2,advisorThrow3,advisorThrow4,advisorThrow5,advisorThrow6,advisorThrow7,advisorThrow8,advisorThrow9,advisorThrow10,advisorThrow11,advisorThrow12,advisor_misses,advisor_handed,advisor_obs,advisor_playedbefore,advisors_playedyears,advisor_playedoften,advisor_adv_helpf,advisor_well,advisor_advicebefore,advisor_english,advisor_age,advisor_gender,advisor_hyp,advisor_advice_text,advisor_advice_wordcount
+AD10,10,-99,7.9,4.5,1.5,2.9,3.6,1.6,6.7,3.8,0.5,2.8,2.9,4.7,0,,0,no,,,3,3,no,yes,36,female,"Attribution of sucess to performance (in other words, does why you performed a certain way have anything to do with how you performed.)","My advice is to lean into the dart throw, releasing the dart when your hand is in alignment with your target. Also, take a moment to make sure you don't have a gust of wind coming!",36
+AD100,100,-99,5.6,-99,7.4,4.9,-99,4,1.5,6.8,-99,7.4,1.7,7.5,3,R,0,yes,30,every few years or less,4,3,no,yes,59.5,female,How my experience affected my advice? How my self opinion affected my performance?,"Darts are lightweight & easily affected by wind.
+ You need to throw w/ a steady power, but too hard & the darts bounce off board.
+ My best option seemed to be to throw them a little higher than you think you need to & they'll drift down.",47
+AD101,101,6.7,4.1,6.9,-99,3.5,3.2,1.9,6,5.5,1.8,4.9,6.6,4,1,R,0,yes,5,every few years,2,3,no,yes,35,male,Willingness to give advice based on self-perception of skill level at an activity?,Work on isolating the movement to as few moving parts as possible. Consistent movement may reduce variability of throws...?,19
+AD102,102,-99,5.2,1.2,7.2,4.4,7.5,6.7,4,5.8,2.3,0.6,6.9,3.5,0,R,0,yes,70,every few years,4,3,no,yes,81,male,Dealing of the great public,"Adjust for wind
+Aim high
+Concentrate
+Don't waste time",6
+AD103,103,4.2,1.2,3.4,2,3.5,7.7,3.1,7.2,5.7,2.1,2.4,2.6,4.4,0,R,0,yes,~10,a few times a year,4,3,yes,yes,27,male,How much explicitly writing down thoughts affects your playing ability (if you make one throw again) or advice versus skill,Put your dominant foot in front of the other. Put equal weight on each foot & center your centre of gravity. Grab each dart right below the magnet in 2 fingers & your thumb. Throw fairly lightly as bounce is significant. Aim slightly higher than the bullseye as it will slide down after contact. Neglect gravity due to your proximity. Use your arm as a lever to it pointed at the target & parallel to the ground. Due do not lean forward on a lot when you throw.,88
+AD104,104,7.7,3.1,3.4,6,5.5,2,2.5,1.1,3.7,3.3,4,6.2,2.8,0,R,0,yes,20,every few years,2,3,no,yes,36,female,confidence,"I don't think there is any written advice that can help you; sorry! The best advice is to practice darts in your spare time. Other than that, just relax & try to hit the bullseye.",35
+AD105,105,5,-99,-99,2.5,2,5,6,7.4,-99,-99,7,6.2,2.8,4,R,1,yes,40,every few years,4,2,no,yes,57,male,How different people react to success / failure. How finfident they are about giving advice on a task they might not be good at.,"1) Be aware that there will be a pause after each throw, and a longer pause after 6. Thus you need to stay relaxed and concentrate to get momentum and get in the groove.
+ 2) The darts will fall off the target sometimes (if they hit the metal ribs.) This does not mean they were bad shots!
+ 3) The target is really close. Just relax and you'll get it! (And don't feel bad if you miss the target completely.)",79
+AD106,106,4,4.1,0.8,2.9,4.9,2.4,2.1,1,1.4,2.3,1.3,4.2,2.1,0,R,1,yes,9,a few times a year,6,4,no,yes,32,female,To what extent do people feel like a good authority on a game or task they have little experience in,"The darts are weighted from the magnetic tip, aiming higher than the bullseye would improve accuracy.",16
+AD107,107,-99,-99,0.9,7.4,6,-99,5.1,3.4,5.5,3.9,2.4,3.5,2.6,2,R,0,yes,8,a few times a year,4,3,no,yes,36,female,How well you can interpret what actions you've just completed into a meaningful written instruction,"aim! throw the dart higher than you think you need to, and aim above the bullseye. lean into the throw with your leg opposite your throwing arm.",27
+AD108,108,3.3,7,3.3,1.5,4.2,4.4,1.5,4.7,2.1,0.8,0.7,3.9,4.4,0,R,2,yes,20+,every few years,4,3,no,yes,40,male,Male vs. female coordination,"Aim small, miss small.",4
+AD109,109,-99,-99,3.1,5.8,5.2,9.2,5.4,2.4,3.6,5.2,-99,5.9,6.6,2,R,0,yes,10,every few years,3,2,no,yes,36,male,No clue.,"SOME DARTS DO NOT STAY ON THE BOARD. THE FEEL OF THE MAGNETIC DARTS IS DIFFERENT THAN NORMAL, AND TAKES SOME GETTING USED TO. MY AIM/FOCUS WAS ON THE CENTER BUT THE BEST THROWS CAME WHEN I LOOKED ABOVE THE TARGET AND ALIGNED MY HAND W/ MY NOSE.",48
+AD110,110,4.9,5.5,3.1,1,1.2,3.1,4.5,2.4,1.7,5.6,1.4,1.4,1.4,0,R,0,yes,10,every few years,4,3,no,yes,21,male, How one's performance (objective & perceived) influences the advice they give to others,"1) step as close to the line as you are allowed to
+ 2) Try to limit motion in parts of your body other than your throwing arm
+ 3) Try not to blink as you throw
+ 4) Stand up straight
+ 5) Relax
+ 6) Establish a rhythm between throws",47
+AD111,111,1.1,2.1,0.8,4.9,1,2.4,4.4,1.5,3,4.9,3.6,1.7,2.8,0,R,0,no,10,every few years,4,3,no,yes,30,male,spacing or correlation b/t advice & accuracy',"Every time you throw pay attention to your body not just where the dart lands, try to correct your movements.",20
+AD112,112,5.5,-99,4.4,4.5,-99,4.2,-99,2.4,6.9,1.6,5.7,4.1,3,3,R,0,yes,3,every few years,3,1,no,yes,24,female,Patience.,"- Have good aim or good eyesight.
+ - Extend your arm completely when throwing the dart since you can't step forward.",21
+AD113,113,3.9,1.4,-99,-99,2.6,6.5,7.4,-99,4.5,3.3,3.7,1.6,2.5,3,R,0,yes,15,every few years,4,4,no,no,23,male,Assessing how people react to initial performance @ throwing darts.,"- Don't throw too forcefully
+ - Focus on the center. I found it helpful. 
+ - Closing one eye and throwing was more difficult.",24
+AD114,114,1.2,5.7,2.9,0.6,2.4,2.6,0.5,2.7,4.4,0.7,3.4,2.9,3.1,0,R,0,yes,~10-12,every few years,4,3,yes,yes,21,male,"I don't know honestly, maybe confidence",Don't overcompensate for misses. Watch where you release the dart.,10
+AD115,115,2.7,3.4,0.1,3.5,5.7,1.4,4,1.5,6.3,5.5,2.2,4.2,-99,1,R,1,yes,15,a few times a year,4,3,yes,yes,30,male,Something to do with self assessment maybe? I don't know,Hold the darts where the tip meets the tail.,9
+AD116,116,7.6,3.5,2,2.9,6.6,5.7,3.4,-99,5.5,4.4,3.3,7.3,-99,2,R,1,yes,4,every few years,4,3,no,no,25,male,"A studing [study] on how people learn, come to conclusions and explain what they have learned to someone else.","Hello, (to the one coming after me)
+ I'd recommend you to stay calm, put your strongest foot a little bit forward. Don't throw the ""arrows"" too strong because it will not stick to the bord. However, if you will throw it too weak from two main reasons:
+ 1. Maybe you will not get to the bourd.
+ 2. the arrow will have a balistic path and therefore you will loose accuracy.",70
+AD117,117,4.9,1.7,3.9,2.1,3.4,6.3,5.4,3.5,1.6,1.7,1.9,5.8,3.5,0,,2,yes,5+,every few years,5,3,no,no,21,male,Communicating human motion mechanics or distiguishing levels of advise based on success at game?,"- Follow through with arm movement, keeping your hands, elbows, wrists, and shoulders on a straight axis (maintain pointer finger for follow through) 
+ - Foot placement is important. Place lead foot towards center of dartboard and adjust back leg accordi",41
+AD118,118,5,4.5,3.2,-99,2.8,2.7,3.1,7.4,2.1,4.6,4.6,5.9,2.8,1,L,0,no,,,4,3,no,yes,19,male,"Measuring how performance during the game affects the type of advice given & how giving advice / how well you played affects how well you think you did, tl;dr - some sort of psych study","- Aim a little bit higher than the target (depending on how hard you throw, the dart will drop variable amounts during its flight)
+ - Try to repeat the same motion each time. Any variance in form will affect your throws (and take you longer to get better",58
+AD119,119,3.7,5,1.6,1.4,0.9,1,1.3,1.3,2.4,0.5,1.3,1.5,1.3,0,R,0,yes,7,every few years,6,4,no,yes,25,male,#NAME?,"- grab the dart in a specific way that feels most comfortable to you. (Make sure you grab it the same way everytime)
+ - aim for the bullseye on your practice throw. (make sure to fully extend your arm when you release the dart)
+ - after taking note of h",99
+AD120,120,4.9,1.3,3,6.4,1.7,2.4,4.8,2.3,6.1,7.6,-99,1.1,0.3,1,R,1,yes,8,every few years,4,3,no,yes,26,female,Perhaps precision vs. accuracy. Another guess is total Focus time & whether it helps in such a game. Or the psychology of explanation / sharing success secrets,"Slightly bend your knees with your feet shoulder width apart and your dominant foot forward of the other. The magnet darts throw more like pebbles than actual darts. Hold the dart with your fingertips of your dominant side and toss (I aim slightly above the target anticipating the drop). When you throw, lock your arm (at elbow) straight so your arm is pointing right where you want the dart to go. No matter how you do, remember that it's only a game of darts and you can go practice at the pub anytime to increase your skill level. Have a nice day. Love [name]",104
+AD121,121,4.4,7,5.7,8,1.8,4.1,6.4,6.1,1.4,4,2,1.4,3,0,R,0,yes,5,every few years,4,3,yes,yes,29,male,How people give directions and/or the way people's writing style has changed. Or to see how many people are willing to offer their time for science study stuff? It's probably not about darts.,"Honesty, don't overthink it. The more I focused, the worse I did.
+ The one tip that I'd give which seemed to help a little bit is pointing your dominant foot straight at the target with the other slightly behind you.
+ You've got this one, champ. 
+ Love,
+ A Fellow Participant",50
+AD122,122,3.4,-99,4.4,7.5,5.1,4,5.2,5.7,6.1,5.9,6.4,5.5,-99,2,R,0,yes,<1(3 months or so ago),a few times a year,4,3,no,yes,26,male,My guess is that it is studying how the impact of the advice of novice will impact the learning curve of another novice.,"Two things-
+ 1. The darts are magnetic- throw holding the blue magnet with your fingers- this will allow for greater accuracy.
+ 2. Aim a little higher than you might with a normal dart- the darts arc, and I found my throws to be slightly lower than expected.",47
+AD123,123,2.6,6.1,5.6,5,5.2,1.4,3.5,4.2,-99,-99,4.4,5.7,1.5,2,R,0,yes,10,a few times a year,4,3,no,yes,29,female,Taking / giving directions,Make sure you follow through with your throw. Wait for optimal conditions (such as no wind) until you throw. I found it helped when I put my weight on one foot that was slightly behind my other foot and leaned forward to the other foot which was behind the line when throwing.,52
+AD124,124,-99,5.2,2.7,-99,2.2,3.4,1.2,1.3,0.2,1.9,2.5,2,1.3,1,R,2,yes,20,a few times a year,5,3,no,no,39,male,Learning,"- If you are tall, squat down to adjust your height versus target
+ - Unlike real darts, more speed (throwing hand) does not help the magnet stick to the board
+ - Watch out for the wind!
+ - Put your leading foot forward (on the same side has throwing ha",49
+AD13,13,-99,2.2,-99,5.7,-99,8.5,2.4,-99,1.7,3.8,6.2,7.9,8.9,3,L,NA,yes,8,every few years,5,3,no,yes,21,female,hand eye coordination. Trying something first then giving tips after. Listen to our own advice for better improvements?,"I used my dominant hand and wasn't very successful so maybe try to use the other hand (which I did and at least all the darts landed somewhere on it). 
+Concentrate and don't rush, get a good feel for the dart. Try avoiding the 'spin dart' method, the weighted end won't land on the board. 
+It might help to use your index and thumb lightly rested in the dipped curves of the dart just behind the magnetic weighted end. 
+Enjoy!",80
+AD14,14,6.4,-99,5,3.9,2.3,3.3,1.8,4,7.5,2.2,2.4,-99,0.5,1,R,NA,yes,3,a few times a year,4,3,yes,no,20,female,"Psychology, human science",NA,NA
+AD15,15,-99,-99,8.6,6.4,7.9,3,3.8,6.7,4,5.3,2,1.9,2.4,1,L,NA,yes,7,every few years,5,2,no,yes,25,female,How people's performance in a game of darts (and improvement in each throw) is reflected in the advice they would give to others.,"-Because of the magnet in the dart, you need to aim higher than what feels natural, as it will curve down.
+ -More force in your throw is better than less force.",31
+AD38,38,4.2,2,7.1,1.5,4.7,2.9,3.3,1.5,5.3,1.1,3.2,4.7,7.4,0,R,0,yes,10,a few times a year,4,3,no,yes,25,female,Performance Anxiety- how results of a game affect a person's mindset.,"-If there is wind, wait for it to pass.
+ -Aim slightly higher than your intended target.
+ -Make sure to follow through on your throws.",24
+AD39,39,4.1,2.3,1.5,4.3,2,1.4,5.3,5.6,1.9,3,3.1,4.3,5.3,0,R,0,yes,6,a few times a year,5,3,no,no,19,male,Giving advice and then evaluating your own and advice and your game of darts.,"While this game is similar to dart, the darts themselves are different. These darts are less aerodynamic, so count on their weight playing a larger role than normal.
+ Try to work with the weights at the ends of the darts.",40
+AD40,40,8.2,-99,-99,0.9,5.9,7.6,4.7,-99,5.5,5.3,3.5,1.5,3.4,3,R,0,no,,,4,1,no,yes,73,female,"1) persistence 
+2) willingness to share advice","Use your first free throw to see which may not to throw. Try to pay attention to which way you've thrown, and note the difference between the direction of your throw, and where it actually landed. 
+ I did better when I aimed higher, I got closer to the bulls eye. 
+ If you landed near the bulls eye, but lower, aim even higher. 
+ You can learn this, with enough tries. 
+ Don't give up.
+ Good luck.",78
+AD42,42,5,4.1,7,2.5,4.4,4.1,7.5,4.1,0.7,5.1,5.1,4.9,1.6,0,R,0,yes,55,,5,3,no,yes,63.5,female,"practice effect
+hand eye co-ordination","1. Consider wind direction before throwing. 
+2. Think about where last ""dart"" thrown was placed on board.",17
+AD44,44,-99,1.1,3.7,3.8,5.1,2.7,0,2.6,3.8,5.1,4.5,3.6,3.4,0,R,3,yes,20,every few years,4,2,no,yes,69,male,Psychology.,"Take your time. 
+ Breathe in-out when throwing.
+ Focus mentally.",10
+AD46,46,-99,-99,-99,-99,8.8,-99,1.8,5.5,4,-99,5.8,7.4,7.5,5,R,1,no,,,1,2,no,no,27,female,playing darts,"Be aware of the weight of the dart, keep in mind that the dart makes a slight wave and keep trying.",21
+AD47,47,6.9,5.7,5,5.8,2.9,0.9,3.5,2.3,1.7,4.9,2.8,3.3,2.3,0,R,1,yes,10,every few years,4,3,no,yes,35,female,Gender differences in sports performance + advice giving + how they differ in judgind themselves,"Adjust your feet positions to correct for how far to the right or left you were on the last throw. 
+ Focus on the bullseye. Try to eliminate distractions.
+ Hold the dart close to the magnet.
+ Don't use too much force. 
+ You can do it!",46
+AD48,48,2.7,3.1,1.2,6,-99,-99,8.3,7.8,1.9,4.2,5.2,7.5,1.5,2,R,2,yes,20,a few times a year,3,3,yes,yes,34,male,One's belief in one's ability to coach/provide advice relative to one's actual ability as evidenced by perfomance in the game.,"-Throw the darts with little force. 
+ -Look @ the bullseye when you throw it.
+ -Take your time
+ -Point foot towards target.",22
+AD50,50,4.2,3.4,1.9,3.3,5,4.4,2.6,3,3.5,4.3,4.1,3.1,2.2,0,R,0,no,7,,3,3,no,no,24,male,I assume the study is to see how many players would participate in this game and to understand their demographics.,"-try relasing at different angles. stick to the one where you think you can hit the red dot.
+ -try adjusting the power exactly where the dart flights and hit the board.",31
+AD52,52,3.5,3.6,4.3,1.9,0.7,2.2,2.4,2.8,5.6,1.6,3.9,3.4,2.2,0,R,0,yes,8,every few years,4,3,no,yes,33,female,Giving advice,Stand perpendiculat to board with leading/dominant side closest. Rely on muscle memory and go as quickly as possible.,18
+AD53,53,5.2,4.1,3.9,-99,7.5,5.1,7.2,4,5.6,6.1,-99,2,7.7,2,R,0,yes,20,every few years,4,3,no,yes,29,female,skill vs. communication ability?,"There is a significant difference between real darts & the magnetic variety. Rather than imagining throwing a spear, with these magnetic darts it's better to imagine throwing a small ball, trying to figure out at which point the board will intersect the arc when toned. 
+ Darts in an iterative process; the first throw is a datapoint to be built on by adjusting stance + throw for each subsequent turn.",70
+AD54,54,2.5,6.5,2.3,2.3,3.4,3.9,2,2.3,2.3,0.7,1.1,0.5,2.6,0,R,1,yes,1~2,every few years,4,3,no,yes,20,female,Performance improvement /concentration,"-Take notice of where your practice dart lands and how you threw it. 
+ -Keep evaluating your 'performance' as you throw the darts and adjust each throw by using the most effective technique aspects. 
+ -Keep your eye on the bullseye and line the dart up ",69
+AD55,55,6.9,1.6,6.6,3.4,4.8,6.3,3.9,3.6,1,4.6,0.8,7.5,6.8,0,R,0,yes (VERY LITTLE),20?,every few years,4,2,no,no,48,female,NOT SURE.,"I DON'T BELIEVE I HAVE ENOUGH EXPERIENCE TO GIVE ADVICE BUT I SUPPOSE TO FOCUS ON THE TARGET AND STEADY ONESELF MIGHT WORK, I DON'T REALLY KNOW. I THINK I'D LIKE TO TEST THIS THEORY MYSELF NEXT TIME I PLAY.",NA
+AD56,56,3.5,8,6.7,2.2,0.7,3.5,0.7,1.7,5.5,0.5,2.5,2,4.3,0,R,0,yes,15,every few years,4,3,no,yes,22,male,Advising future participants and how that affects how they are able to throw,Focus on the spot and once you feel like you have a good throw duplicate it as much as possible.,20
+AD58,58,4.5,-99,-99,-99,8,4.2,4.4,3.4,7.6,4,1.9,4,3.1,3,R,1,yes,10,a few times a year,4,2,no,yes,27,male,Confidence in how I played the game and confidence in the advice I gave,"Hit the bulls eye. 
+ Learn from your previous throws.
+ Don't stress too much",14
+AD59,59,5.9,2.9,7.1,3.9,3,1.3,2.4,3,5.9,4.1,2.4,5.1,3.4,0,,0,yes,10,every few years,4,3,no,no,18,female,Maybe eye-arm coordination.,"If you are left-handed, you will have a tendancy to hit the right side of the board, and vice-versa if you are right-handed. So, to play more effectively, try once to see how far to the side ou are, then try to adjust by bringing your aim out closer to your side. Same thing goes for right. Throw from your elbow, not your wrist.",64
+AD61,61,1.6,0.3,1.5,0.6,0.5,0.6,1.5,0.5,0.5,1.5,0.3,1.8,-99,1,,0,yes,30,every few years,4,5,no,yes,55,male,Not science,Relax- Follow Through,3
+AD62,62,0.5,-99,7.7,4.8,3.8,0.6,1.1,1.1,1.5,1.1,4,3.2,4.4,1,,1,yes,7,every few years,2,3,no,yes,23,female,Maybe about improving after numerous trials. How we think we did compared to others.,"Practice, but I think a lot of it is luck since I didn't consistently get in the middle.",NA
+AD63,63,6.1,4.2,2.6,1.4,5.6,7.9,3,4.2,4.5,4.7,6.4,7.7,3.5,0,,1,yes,15,a few times a year,6,3,yes,yes,25,male,selling a dart game product,"Take your time and not stress over the first few throws. Use those for a way to alter your stance, power, and aim to be accurate. Have fun, it's a game.",31
+AD65,65,-99,1.1,5.5,2.6,5.6,1.5,1.7,2.7,3.2,3.3,4.1,3.6,3.4,0,R,0,no,,,3,2,no,no,19,female,Methods of instruction?,"If you're my height - 1.56[UNKNOWN], I rec. you to throw the darts higher i.e. aim higher & take extra account the wind.",NA
+AD66,66,-99,3.7,5.7,3.5,3.5,1.9,3.1,1.3,1.8,3.4,3.7,5.5,2.6,0,R,3,yes,2,every few years,3,4,no,yes,23,female,How people judge their performance and the advice they give based on it?,Try to aim for the middle. Standing up straight seems to help a little bit. Don't hit the experimenter with darts.,21
+AD67,67,3.8,5,1,0.4,4.1,1.2,2.2,3.6,1.3,1.3,3.6,1.5,5.7,0,R,0,yes,7,every few years,2,3,no,yes,23,male,How perfomance in something can make you feel qualified to give advice,"Don't think too much about it. I don't know the mechanics of darts but if you think too much you'll psyche yourself out. That basically applies to anything. In the wise words of Kevin Hart, ""Do you, boo boo""",39
+AD69,69,-99,-99,-99,5.6,6.3,3.5,-99,6.7,5.6,4.2,-99,6.9,-99,5,R,1,no,,,4,2,no,no,18,female,"About how people give advice, and the question whether that's related to how good you are at a game.","You will stand about 2 meters from the board.
+ I think that you should try to throw a bit higher than you think you should to hit the middle of the board. It's a magnet darts board and all the darts ar the same. 
+ Put one foot a little further forward than the other foot while throwing.",58
+AD70,70,5.9,2.2,3.1,2.7,1.4,3.4,5.2,6.7,3.6,1.5,1.1,1.5,0.8,0,R,0,yes,13,every few years,4,3,no,no,23,male,How people make decisions after certain events happening after each other (way of thinking),"Try to throw under same conditions (take the wind in account)
+Change how hard you throw and the direction of the dart by the previous dart",25
+AD71,71,2,1.5,7.2,1.8,-99,0.9,7.5,4.3,-99,4.1,1,0.6,2,2,L,0,yes,1[?],every few years,3,2,no,yes,22,female,Perceptions of ability/desire or ability to give advice,Practice makes perfect!,3
+AD72,72,5.4,3,3,1.4,3.7,2.5,1.7,3.1,0.5,3.6,1.6,1.2,0.8,0,R,1,yes,27,a few times a year,5,4,yes,yes,33,male,Self-perception of our ability to share knowledge based on experience.,"-Take your time.
+-Breath in slowly, Breath out as you throw.
+-Relax, have fun.
+-Aim true! Lean forward.
+-Trow the dart!",17
+AD73,73,-99,7.1,5.7,-99,6.2,2.3,7.5,6.9,5.3,2.6,-99,5.8,3.9,2,R,0,yes,5,every few years,4,2,no,yes,26,female,Maybe it was about how people perform when they're in the sun?,"-Be careful of crosswinds
+-don't let the sun get in your eyes
+-compensate for which side your focal point is on so you can aim for the center",26
+AD74,74,-99,-99,5.9,-99,-99,5.1,-99,5.1,-99,6.7,-99,-99,4.1,7,R,0,yes,10,every few years,1,2,no,yes,57,female,No clue,"for best results Hold dart by ""its"" tail and throw underhand.
+Toss in a slightly upward underhand motion. Best result is to throw gently.",23
+AD75,75,6.3,0.4,3,5.3,4,1.8,3.9,2.1,7.5,1.8,3.6,2,2.1,0,R,0,yes,16,,4,3,no,no,28,male,psychology ,"-TO GET BETTER RESULTS IT'S IMPORTANT THAT YOU MEASURE THE WEIGHT OF THE DARTS WITH YOUR HANDS. ANOTHER KEY THING IS TO GET THE RIGHT AMOUNT OF STRENGTH IN EVERY TROW, SO YOU DO NOT GET TO FAR FROM THE BULLSEYE.",41
+AD76,76,3.7,6.2,-99,-99,-99,8.5,-99,6.2,2.6,6.8,1.8,-99,3.7,5,R,1,yes,1,every few years,4,1,no,yes,20,male,A game of darts,"Take your time
+ -hold the dart pins properly
+ Take note of the magnet in the dart pin if you are not accoustomed to pinless darts.",25
+AD78,78,4.2,1.1,-99,-99,7.5,5.5,3,2,4.4,6,6.9,-99,-99,4,R,0,yes,10,every few years,1,1,no,yes,21,female,"The correlation between the amount of advice, years of experience, self rating and dart score.","Lean as close to the board as possible
+Do try to throw against the wind.
+aim for the center.",17
+AD79,79,4.5,3.8,1.7,5,1.5,4.3,4.6,5.4,7.4,1.6,2.1,2.2,1.1,0,R,1,yes,35,every few years,2,3,yes,yes,46,male,Simple games and gnning people's response es to the results + their performance in simple games.,Key is to throw darts with some speed directly at bullseye. I tried loffing the darts with less success. Throwing the darts with some speed yielded better results.,28
+AD8,8,-99,2.8,-99,-99,-99,7.3,4.9,3.5,4.5,-99,2.3,4.9,5.4,4,,0,no,,,4,2,no,yes,31,male,"Strategies for learning amd improving performance, how we perveive how to improve.","Throw the darts as straight as possible, metal part forward.
+I found it helpful to lean forward as far as I reasonably could.",22
+AD80,80,-99,-99,-99,-99,-99,-99,-99,1.6,8,-99,5.5,-99,-99,9,L,0,yes,60,every few years,1,2,no,yes,77,male,?,"Pay attention to your angle to the board.
+ Throw hard.
+ Hire a coach.",13
+AD81,81,4.4,5.9,2.3,7.7,6.6,3.5,1.2,3.6,4.5,0.7,-99,3.5,4.6,1,R,1,no,,,3,1,no,no,23,male,I have absolutely no clue,"-Take time to get used to the touch, weight, etc. of the arrows
+ -Mind the wind that may influence the direction.
+ -Be confident
+ -Just try the first shots without really thinking just to get used to it and adjust",39
+AD82,82,-99,4.7,3.1,2.7,4.2,0.7,7.7,3.3,1.5,3.7,2.2,1.4,2.8,0,,0,yes,3,every few years,4,3,no,no,24,male,About how people communicate about body language ,"Once you get used to the weight of the dart, remember how you guided the dart in your best shots.
+Accompany the dart with the whole body so that deviations made by the inaccuracy of your arm are minimized.
+Do no shoot too fast because magnet will not stick; a parabola is desired for your shot.",54
+AD83,83,7.4,-99,7.3,5.7,-99,-99,3.8,1,-99,2.6,-99,-99,1.1,6,L,0,yes,15,a few times a year,4,2,no,no,35,male,Assessing one's own struggle for success. Usefulness of immediately evaluating performance,"-turn your body sideways
+-follow through on the throw
+-aim a little higher than where you expect it to land.
+-avoid throwing in an arc. - throw straight.
+-don't pinch the darts too hard.",30
+AD84,84,-99,2.7,7.8,5.9,-99,-99,5.4,7.4,6.4,2.1,4.1,4.9,4,2,R,0,yes,?,every few years,1,2,no,yes,18,female,No clue.,"The darts stick at the end only so try to hit with that. 
+ Not much is on the lane so don't worry.",23
+AD85,85,6.3,4.8,6.2,2.8,3.8,4.8,-99,1.9,8,2.1,3.7,-99,2.8,2,R,0,yes,3,a few times a year,5,3,no,yes,31,male,"Perceptions, confidence. Confidence in giving advise to others, not correlated to how you actually performed.","-Pay attention to the weight & balance of the dart during the practice throw.
+ -Make sure you have a good feel for the practice throw to ensure you get the best score during the 'live' game.
+ -Make sure you follow through with your throw.
+ -Aim small, ",48
+AD86,86,3.7,2.3,1.9,2,0.7,4.2,2.7,6.6,0.7,0.3,4.6,5.3,4.4,0,R,3,yes,40,every few years,3,3,no,yes,47,male,following directions,"Aim a little higher than the bulls eye. 
+ Keep the ""dart"" centered within your index, & middle finger and thumb.",21
+AD87,87,7.5,-99,6.6,-99,-99,-99,-99,-99,6.5,-99,5.4,0.6,4.7,7,R,0,yes,30 or 50,every few years,4,2,no,yes,65,female,I don't know but the delay between throws was important,NA,NA
+AD88,88,6.2,1.4,7.4,7.9,2.4,7.5,2.8,4.5,0.6,7.9,2.6,6.9,0.6,0,R,0,yes,40,,4,3,no,no,60,female,How people behave in unexpected situations. Competitiveness? ,"Stand and ground through feet.
+Focus on board. Throw the dart.
+If it is anywhere near where you want it to be, concentrate, repeat, refine.
+Be careful not to overcompensate when throwing and you want to get to your mark.
+Be relaxed and keep it light.
+It's a game!",44
+AD89,89,5.3,4.1,6.5,4.4,5.9,-99,7,4.2,4.6,4.4,2.1,0.5,4.6,1,R,0,no,,,2,1,no,no,26,female,About how people react to non-expected invite to games and to see how bad or good they do it.,"Future player,
+I guess only with some practice you'll be going to always get the bullseye.
+So, I'd recommend having an earlier practice before doing it.
+The thing I noticed when I reached the goal was that I was pointing a little bit above the target. I'm not sure how much, so...",49
+AD9,9,4.3,4.1,4.1,2.6,6.8,1.7,1.5,1.9,5.1,3.9,3.1,4,1.3,0,,0,yes,12,every few years,3,3,no,yes,19,male,Something about eye contact or being patient.,eye on the target.,4
+AD90,90,4.6,5,3.7,6.3,4.4,0.6,2.3,2.4,2.2,2.8,0.6,3.3,1.6,0,R,0,yes,3,a few times a year,3,2,no,no,28,male,How advice can help people to improve their performance ,"FIRST OF ALL USE THE FIRST PRACTICE SHOOT TO SEE HOW THE DARTS WORKS. THAT MEANS IF YOU THROW IT STRAIGHT ON AND IT GOES ON THE LEFT, YOU HAVE TO AIM MORE RIGHT TO TRY TO GET THE CENTRE OF THE BOARD. TRY TO BE RELAXED WHEN YOU SHOOT THE DART AND DO NO USE ALL OF YOUR POWER BECAUSE MORE POWER MEANS LESS PRECISION. DARTS BY DART TRY TO IMPROVE AND CALIBRATE YOUR NEXT SHOOT. ",77
+AD91,91,-99,-99,6.4,6.1,-99,6.2,-99,5,7.3,-99,4.7,-99,3.8,5,R,NA,yes,41,every few years,2,3,no,yes,45,male,giving helpful advice ,Throw high. Darts will arc.,5
+AD92,92,2.9,2.8,4,0.5,1.9,4.9,0.5,4.7,1.2,1.3,4.5,2.4,0.9,0,,0,yes,3 months ago,a few times a year,4,4,yes,yes,24,male,How advice & confidence in one's ability fluctuates with quality of performance ,"-grip the dart on its magnetic base (front end)
+ -don't let it fly the way you would a standard dart- it doesn't fly as well- put more into it
+ -short compact motion is best because the dart does not fly as well
+ -make adjustiments & let the wind die d",53
+AD93,93,-99,1.9,-99,4.7,6.1,4.9,3.9,6.4,4,1.9,5.3,2.6,5.7,1,R,1,yes,10,every few years,4,4,no,yes,22,female,Skill level & ability to give advice?,"*try not to be nervous or think too hard- it's just a game!
+ *don't try to compensate for your mistakes. i.e. if you throw one too far left, don't try to throw more to the right next time. Just try to aim for the center each time.
+ *throw hard, if you don't, they won't stick to the board. Even if you're accurate, if it doesn't stick, it doesn't count!
+ *don't get distracted by the fact that you're in a ""study""!",80
+AD94,94,7.2,1.9,0.7,1.5,2.6,3.4,4.5,0.6,4.3,5,0.8,1.6,4.2,0,R,0,yes,10,every few years,4,4,no,yes,22,male,"Whether people rated themselves as ""average,"" ""below average,"" or ""above average."" Most people probably rate themselves a bit better than they actually are.","-The dart drops a considerable amount so aim higher than you think.
+ -Wait for the board to stop shaking before you throw
+ -Channel your inner spirit for maximum accuracy points.",30
+AD95,95,7.7,1.5,-99,6.2,1.7,3.8,4.5,-99,-99,5.9,1.6,2.1,0.5,3,R,NA,yes,20,,3,3,no,yes,37,female,"Social and behavioral sciences dept. maybe accuracy as the dependent variable vs control variables gender, age...","Think parabollic movement, so aim high (like with an elevation angle of 45*). Speed within each consecutive darts was an issue for me because it seemed the faster I did it the better I got.",35
+AD96,96,-99,2.2,7,4.3,2.2,7,7,5.5,3.3,6.9,4.2,4.2,5.4,0,R,NA,yes,8,a few times a year,4,3,no,yes,23,female,Gaging people's perceived ability/ qualification to give advice when doing a task that is juxtaposed with a similar task they are already familiar with.,The darts don't have the same feeling/weight as normal darts. The magnets tend to slide down if not thrown very straight and don't land flush with the board. Keep a focus on throwing the darts straight as opposed to forecefully.,40
+AD97,97,-99,-99,5.7,4.8,4.3,2.9,5.4,2.8,1.6,4.4,-99,0.5,0.6,2,R,0,yes,10,every few years,4,4,no,yes,29,male,Confidence in performance versus ability to teach,"-Use a little bit of arc.
+ -Don't throw too hard.
+ -Aim slightly above bullseye.
+ -Keep eye on target.",18
+AD98,98,6.9,8.1,7.7,7.9,4.7,4,7.6,4.9,5.1,3.2,5.3,4.7,2.6,0,R,0,yes,15,every few years,3,3,no,yes,27,female,perception of ability or frustration with faulty darts ,"Throw the darts fairly hard.
+ Try to keep your arm in the same place so you can tweak each throw.",20
+AD99,99,7.4,4.6,2.5,2.3,2.4,5.6,2.4,1.1,2,2,5,2.7,1.2,0,R,0,yes,15,every few years,4,3,no,yes,28,female,perceptions of expertise? ,Focus. Toss firmly but don't throw too hard.,8
