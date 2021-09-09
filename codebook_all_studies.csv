@@ -1,0 +1,1041 @@
+﻿Study,Variable Name,Description
+Study 1,Progress,Percent of study finished as measured by Qualtrics
+Study 1,Duration (in seconds),Study duration in seconds
+Study 1,Finished,Did the participant finish the entire study?
+Study 1,ResponseId,Anonymized Qualtrics Response ID
+Study 1,t_consent_First Click,Timing info: First click on page
+Study 1,t_consent_Last Click,Timing info: Last click on page
+Study 1,t_consent_Page Submit,Timing info: Total time to submit current page
+Study 1,t_consent_Click Count,Timing info: Total number of clicks on page
+Study 1,t_landing_First Click,Timing info: First click on page
+Study 1,t_landing_Last Click,Timing info: Last click on page
+Study 1,t_landing_Page Submit,Timing info: Total time to submit current page
+Study 1,t_landing_Click Count,Timing info: Total number of clicks on page
+Study 1,inst1_t_First Click,Timing info: First click on page
+Study 1,inst1_t_Last Click,Timing info: Last click on page
+Study 1,inst1_t_Page Submit,Timing info: Total time to submit current page
+Study 1,inst1_t_Click Count,Timing info: Total number of clicks on page
+Study 1,inst2_t_First Click,Timing info: First click on page
+Study 1,inst2_t_Last Click,Timing info: Last click on page
+Study 1,inst2_t_Page Submit,Timing info: Total time to submit current page
+Study 1,inst2_t_Click Count,Timing info: Total number of clicks on page
+Study 1,cat_t_First Click,Timing info: First click on page
+Study 1,cat_t_Last Click,Timing info: Last click on page
+Study 1,cat_t_Page Submit,Timing info: Total time to submit current page
+Study 1,cat_t_Click Count,Timing info: Total number of clicks on page
+Study 1,cat_c,Task completion code
+Study 1,eise_t_First Click,Timing info: First click on page
+Study 1,eise_t_Last Click,Timing info: Last click on page
+Study 1,eise_t_Page Submit,Timing info: Total time to submit current page
+Study 1,eise_t_Click Count,Timing info: Total number of clicks on page
+Study 1,eise_c,Task completion code
+Study 1,lnpk_t_First Click,Timing info: First click on page
+Study 1,lnpk_t_Last Click,Timing info: Last click on page
+Study 1,lnpk_t_Page Submit,Timing info: Total time to submit current page
+Study 1,lnpk_t_Click Count,Timing info: Total number of clicks on page
+Study 1,lnpk_c,Task completion code
+Study 1,mpeh_t_First Click,Timing info: First click on page
+Study 1,mpeh_t_Last Click,Timing info: Last click on page
+Study 1,mpeh_t_Page Submit,Timing info: Total time to submit current page
+Study 1,mpeh_t_Click Count,Timing info: Total number of clicks on page
+Study 1,mpeh_c,Task completion code
+Study 1,qual_fr,Free response condition response
+Study 1,qual_mc,Multiple choice condition response (forced)
+Study 1,qual_mc_na,Multiple choice condition response (free)
+Study 1,qual_percs_1,Decile condition response
+Study 1,qual_percs_2,Decile condition response
+Study 1,qual_percs_3,Decile condition response
+Study 1,qual_percs_4,Decile condition response
+Study 1,qual_percs_5,Decile condition response
+Study 1,qual_percs_6,Decile condition response
+Study 1,qual_percs_7,Decile condition response
+Study 1,qual_percs_8,Decile condition response
+Study 1,qual_percs_9,Decile condition response
+Study 1,qual_percs_10,Decile condition response
+Study 1,qual_slide_1,Slider condition response
+Study 1,qual_t_First Click,Timing info: First click on page
+Study 1,qual_t_Last Click,Timing info: Last click on page
+Study 1,qual_t_Page Submit,Timing info: Total time to submit current page
+Study 1,qual_t_Click Count,Timing info: Total number of clicks on page
+Study 1,qual_expl,Please briefly explain your answer to the previous question.
+Study 1,prev_exp,Previous experience with the task
+Study 1,prev_last,(if yes to previous) Most recent time playing before today
+Study 1,prev_first,First time playing the game
+Study 1,prev_freq,How often playing the game
+Study 1,rel_skill,How skilled are you compared to most people at the game
+Study 1,rel_exp,How experience are you compared to most people at the game
+Study 1,input,Input device
+Study 1,input_7_TEXT,Input device (other)
+Study 1,age,Participant age
+Study 1,gender,Participant gender
+Study 1,catch,Answer to attentional catch question
+Study 1,catch_4_TEXT,Answer to attentional catch question (free repsonse)
+Study 1,language,Did you only speak English growing up?
+Study 1,language_3_TEXT,Language: other
+Study 1,language_2_TEXT,Language: other
+Study 1,bugreport,"Reporting any bugs, errors or glitches in study"
+Study 1,hyp,Guessing what the hypothesis is
+Study 1,comments,Any other comments
+Study 1,ResponseID,Anonymized Qualtrics Response ID
+Study 1,Q_TotalDuration,Study duration in seconds
+Study 1,inst_bar,Answer to instructional comprehension checks
+Study 1,inst_crab,Answer to instructional comprehension checks
+Study 1,inst_barb,Answer to instructional comprehension checks
+Study 1,inst_mat,Answer to instructional comprehension checks
+Study 1,hypothetical_DO,Which condition was displayed
+Study 1 Free Response Coding,ResponseID,Anonymized Qualtrics Response ID
+Study 1 Free Response Coding,qual_fr,Qualtrics free response from Study 1
+Study 1 Free Response Coding,type of explanation,Type of explanation
+Study 1 Free Response Coding,Best?,"Did they mention ""the best"" performer?"
+Study 1 Free Response Coding,Agree?,Did the coders agree?
+Study 2 Advisors,ResponseID,Anonymized Qualtrics Response ID
+Study 2 Advisors,ResponseSet,ResponseSet
+Study 2 Advisors,Name,Name
+Study 2 Advisors,Status,Status
+Study 2 Advisors,Finished,Did the participant finish the entire study?
+Study 2 Advisors,ResponseID2,Anonymized Qualtrics Response ID
+Study 2 Advisors,Q_TotalDuration,Study duration in seconds
+Study 2 Advisors,inst_bar,Answer to instructional comprehension checks
+Study 2 Advisors,inst_crab,Answer to instructional comprehension checks
+Study 2 Advisors,inst_barb,Answer to instructional comprehension checks
+Study 2 Advisors,inst_mat,Answer to instructional comprehension checks
+Study 2 Advisors,mobcheck,Mobile device?
+Study 2 Advisors,meta_1_TEXT,Internet browser
+Study 2 Advisors,meta_2_TEXT,Internet browser version
+Study 2 Advisors,meta_3_TEXT,OS
+Study 2 Advisors,meta_4_TEXT,Screen resolution
+Study 2 Advisors,meta_5_TEXT,Metadata: other
+Study 2 Advisors,meta_6_TEXT,Metadata: other
+Study 2 Advisors,meta_7_TEXT,Metadata: other
+Study 2 Advisors,consent,Qualtrics question display record
+Study 2 Advisors,t_consent_1,Timing info: First click on page
+Study 2 Advisors,t_consent_2,Timing info: Last click on page
+Study 2 Advisors,t_consent_3,Timing info: Total time to submit current page
+Study 2 Advisors,t_consent_4,Timing info: Total number of clicks on page
+Study 2 Advisors,landing,Qualtrics question display record
+Study 2 Advisors,t_landing_1,Timing info: First click on page
+Study 2 Advisors,t_landing_2,Timing info: Last click on page
+Study 2 Advisors,t_landing_3,Timing info: Total time to submit current page
+Study 2 Advisors,t_landing_4,Timing info: Total number of clicks on page
+Study 2 Advisors,inst1,Qualtrics question display record
+Study 2 Advisors,inst1_t_1,Timing info: First click on page
+Study 2 Advisors,inst1_t_2,Timing info: Last click on page
+Study 2 Advisors,inst1_t_3,Timing info: Total time to submit current page
+Study 2 Advisors,inst1_t_4,Timing info: Total number of clicks on page
+Study 2 Advisors,inst_title,Answer to instructional comprehension checks
+Study 2 Advisors,inst_BAR,Answer to instructional comprehension checks
+Study 2 Advisors,inst_CRAB,Answer to instructional comprehension checks
+Study 2 Advisors,inst_BARB,Answer to instructional comprehension checks
+Study 2 Advisors,inst_MAT,Answer to instructional comprehension checks
+Study 2 Advisors,inst2_t_1,Timing info: First click on page
+Study 2 Advisors,inst2_t_2,Timing info: Last click on page
+Study 2 Advisors,inst2_t_3,Timing info: Total time to submit current page
+Study 2 Advisors,inst2_t_4,Timing info: Total number of clicks on page
+Study 2 Advisors,cat_t_1,Timing info: First click on page
+Study 2 Advisors,cat_t_2,Timing info: Last click on page
+Study 2 Advisors,cat_t_3,Timing info: Total time to submit current page
+Study 2 Advisors,cat_t_4,Timing info: Total number of clicks on page
+Study 2 Advisors,Q52,Qualtrics question display record
+Study 2 Advisors,cat_b,Qualtrics question display record
+Study 2 Advisors,cat_c,Completion code
+Study 2 Advisors,Q58,Qualtrics question display record
+Study 2 Advisors,Q207,Qualtrics question display record
+Study 2 Advisors,eise_t_1,Timing info: First click on page
+Study 2 Advisors,eise_t_2,Timing info: Last click on page
+Study 2 Advisors,eise_t_3,Timing info: Total time to submit current page
+Study 2 Advisors,eise_t_4,Timing info: Total number of clicks on page
+Study 2 Advisors,Q47,Qualtrics question display record
+Study 2 Advisors,eise_b,Qualtrics question display record
+Study 2 Advisors,eise_c,Completion code
+Study 2 Advisors,Q212,Qualtrics question display record
+Study 2 Advisors,Q263,Qualtrics question display record
+Study 2 Advisors,demi_t_1,Timing info: First click on page
+Study 2 Advisors,demi_t_2,Timing info: Last click on page
+Study 2 Advisors,demi_t_3,Timing info: Total time to submit current page
+Study 2 Advisors,demi_t_4,Timing info: Total number of clicks on page
+Study 2 Advisors,Q265,Qualtrics question display record
+Study 2 Advisors,demi_b,Qualtrics question display record
+Study 2 Advisors,demi_c,Completion code
+Study 2 Advisors,Q268,Qualtrics question display record
+Study 2 Advisors,Q287,Qualtrics question display record
+Study 2 Advisors,lnpk_t_1,Timing info: First click on page
+Study 2 Advisors,lnpk_t_2,Timing info: Last click on page
+Study 2 Advisors,lnpk_t_3,Timing info: Total time to submit current page
+Study 2 Advisors,lnpk_t_4,Timing info: Total number of clicks on page
+Study 2 Advisors,Q289,Qualtrics question display record
+Study 2 Advisors,lnpk_b,Qualtrics question display record
+Study 2 Advisors,lnpk_c,Completion code
+Study 2 Advisors,Q292,Qualtrics question display record
+Study 2 Advisors,Q299,Qualtrics question display record
+Study 2 Advisors,mpeh_t_1,Timing info: First click on page
+Study 2 Advisors,mpeh_t_2,Timing info: Last click on page
+Study 2 Advisors,mpeh_t_3,Timing info: Total time to submit current page
+Study 2 Advisors,mpeh_t_4,Timing info: Total number of clicks on page
+Study 2 Advisors,Q301,Qualtrics question display record
+Study 2 Advisors,mpeh_b,Qualtrics question display record
+Study 2 Advisors,mpeh_c,Completion code
+Study 2 Advisors,Q304,Qualtrics question display record
+Study 2 Advisors,Q305,Qualtrics question display record
+Study 2 Advisors,nwsr_t_1,Timing info: First click on page
+Study 2 Advisors,nwsr_t_2,Timing info: Last click on page
+Study 2 Advisors,nwsr_t_3,Timing info: Total time to submit current page
+Study 2 Advisors,nwsr_t_4,Timing info: Total number of clicks on page
+Study 2 Advisors,Q307,Qualtrics question display record
+Study 2 Advisors,nwsr_b,Qualtrics question display record
+Study 2 Advisors,nwsr_c,Completion code
+Study 2 Advisors,Q310,Qualtrics question display record
+Study 2 Advisors,Q353,Qualtrics question display record
+Study 2 Advisors,woln_t_1,Timing info: First click on page
+Study 2 Advisors,woln_t_2,Timing info: Last click on page
+Study 2 Advisors,woln_t_3,Timing info: Total time to submit current page
+Study 2 Advisors,woln_t_4,Timing info: Total number of clicks on page
+Study 2 Advisors,Q355,Qualtrics question display record
+Study 2 Advisors,woln_b,Qualtrics question display record
+Study 2 Advisors,woln_c,Completion code
+Study 2 Advisors,Q358,Qualtrics question display record
+Study 2 Advisors,Q159,Qualtrics question display record
+Study 2 Advisors,adv_inst,Qualtrics question display record
+Study 2 Advisors,adv_inst_t_1,Timing info: First click on page
+Study 2 Advisors,adv_inst_t_2,Timing info: Last click on page
+Study 2 Advisors,adv_inst_t_3,Timing info: Total time to submit current page
+Study 2 Advisors,adv_inst_t_4,Timing info: Total number of clicks on page
+Study 2 Advisors,advice,Advice text
+Study 2 Advisors,adv_t_1,Timing info: First click on page
+Study 2 Advisors,adv_t_2,Timing info: Last click on page
+Study 2 Advisors,adv_t_3,Timing info: Total time to submit current page
+Study 2 Advisors,adv_t_4,Timing info: Total number of clicks on page
+Study 2 Advisors,Q169,Qualtrics question display record
+Study 2 Advisors,Q16,Qualtrics question display record
+Study 2 Advisors,prev_exp,Previous experience with the task
+Study 2 Advisors,prev_last,(if yes to previous) Most recent time playing before today
+Study 2 Advisors,prev_first,First time playing the game
+Study 2 Advisors,rel_exp,How experience are you compared to most people at the game
+Study 2 Advisors,rel_skill,How skilled are you compared to most people at the game
+Study 2 Advisors,avg_perf_1_TEXT,How well do you think the average person does on one round of the game you played today (avg num of words found in 1 minute
+Study 2 Advisors,prev_freq,How often playing the game
+Study 2 Advisors,input,Input device
+Study 2 Advisors,input_TEXT,Input device (other)
+Study 2 Advisors,browser,Browser
+Study 2 Advisors,browser_TEXT,Browser (free response)
+Study 2 Advisors,adv_imp_1,How much do you think your advice will help them improve?
+Study 2 Advisors,animals,Animal naming task
+Study 2 Advisors,animals_t_1,Timing info: First click on page
+Study 2 Advisors,animals_t_2,Timing info: Last click on page
+Study 2 Advisors,animals_t_3,Timing info: Total time to submit current page
+Study 2 Advisors,animals_t_4,Timing info: Total number of clicks on page
+Study 2 Advisors,Q107,Qualtrics question display record
+Study 2 Advisors,age,Participant age
+Study 2 Advisors,gender,Participant gender
+Study 2 Advisors,catch,Answer to attentional catch question
+Study 2 Advisors,catch_TEXT,Answer to attentional catch question (free repsonse)
+Study 2 Advisors,language,Did you only speak English growing up?
+Study 2 Advisors,language_TEXT,Language: other
+Study 2 Advisors,bugreport,"Reporting any bugs, errors or glitches in study"
+Study 2 Advisors,hyp,Guessing what the hypothesis is
+Study 2 Advisors,comments,Any other comments
+Study 2 Advisors,HITcode,Did they submit a HIT code?
+Study 2 Advisors,DO.BR.FL_3,Board display order
+Study 2 Advisors,exclude,Participants to exclude (see text for details)
+Study 2 Advisors,participant,Advisor ID
+Study 2 Advisors,Exclude,Old exclusion variable (unused)
+Study 2 Advisors,Exclude_why,Old exclusion variable (unused)
+Study 2 Advisors,cat_s,Score on board by name
+Study 2 Advisors,eise_s,Score on board by name
+Study 2 Advisors,demi_s,Score on board by name
+Study 2 Advisors,lnpk_s,Score on board by name
+Study 2 Advisors,mpeh_s,Score on board by name
+Study 2 Advisors,nwsr_s,Score on board by name
+Study 2 Advisors,woln_s,Score on board by name
+Study 2 Advisors,b1,First board seen
+Study 2 Advisors,b2,Second board seen
+Study 2 Advisors,b3,Third board seen
+Study 2 Advisors,b4,Fourth board seen
+Study 2 Advisors,b5,Fifth board seen
+Study 2 Advisors,b6,Sixth board seen
+Study 2 Advisors,s1,Score on first board
+Study 2 Advisors,s2,Score on second board
+Study 2 Advisors,s3,Score on third board
+Study 2 Advisors,s4,Score on fourth board
+Study 2 Advisors,s5,Score on fifth board
+Study 2 Advisors,s6,Score on sixth board
+Study 2 Advisors,advisor_mean,Mean of all boards
+Study 2 Advisors,advisor_var,SE across all boards
+Study 2 Advisors,advisor_sd,SD across all boards
+Study 2 Advisors,advisor_median,Median of all boards
+Study 2 Advisors,advice_wordcount,Number of words in advice
+Study 2 Advisors,animals_wordcount,Number of animals named
+Study 2 Advisees,advisor,Advisor ID
+Study 2 Advisees,participant,Advisee ID
+Study 2 Advisees,ResponseID,Anonymized Qualtrics Response ID
+Study 2 Advisees,Q_TotalDuration,Study duration in seconds
+Study 2 Advisees,inst1_t_3,Timing info
+Study 2 Advisees,inst2_t_3,Timing info
+Study 2 Advisees,eise_d,Score on board by name
+Study 2 Advisees,adv_inst_t_3.x,Timing info
+Study 2 Advisees,lnpk_d,Score on board by name
+Study 2 Advisees,mpeh_d,Score on board by name
+Study 2 Advisees,woln_d,Score on board by name
+Study 2 Advisees,demi_d,Score on board by name
+Study 2 Advisees,nwsr_d,Score on board by name
+Study 2 Advisees,prev_exp,Previous experience with the task
+Study 2 Advisees,prev_last,(if yes to previous) Most recent time playing before today
+Study 2 Advisees,prev_first,First time playing the game
+Study 2 Advisees,prev_freq,How often playing the game
+Study 2 Advisees,adv_exp,How skilled was advice writer compared to average people
+Study 2 Advisees,adv_skill,How skilled was advice writer compared to you
+Study 2 Advisees,adv_help_hyp,"If you had gotten advice, how helpful would it have been"
+Study 2 Advisees,adv_imp_hyp,"If you had gotten advice, how much would it have helped you improve"
+Study 2 Advisees,adv_helpf,How helpful was the advice
+Study 2 Advisees,adv_imp_1,How much did the advice help you improve
+Study 2 Advisees,rel_exp,How experience are you compared to most people at the game
+Study 2 Advisees,rel_skill,How skilled are you compared to most people at the game
+Study 2 Advisees,avg_perf_1_TEXT,How well you think the average person does on one round of the game you played today (avg num of words found in 1 minute
+Study 2 Advisees,adv_perf_1_TEXT,How well you think your advisor does on one round of the game you played today (avg num of words found in 1 minute
+Study 2 Advisees,input,Advisee input device
+Study 2 Advisees,browser,Advisee browser
+Study 2 Advisees,animals,Number of animals named by advisee
+Study 2 Advisees,age,Advisee age
+Study 2 Advisees,gender,Advisee gender
+Study 2 Advisees,language,Advisee language
+Study 2 Advisees,condition,Condition
+Study 2 Advisees,exclude,Old exclusion variable (unused)
+Study 2 Advisees,exclude_why,Old exclusion variable (unused)
+Study 2 Advisees,adv_inst_t_3.y,Timing info
+Study 2 Advisees,advice,Advice text
+Study 2 Advisees,advisor_advice_writing_time,Advisor advice writing time
+Study 2 Advisees,advisor_prev_exp,Advisor - Previous experience with the task
+Study 2 Advisees,advisor_prev_last,Advisor - (if yes to previous) Most recent time playing before today
+Study 2 Advisees,advisor_prev_first,Advisor - First time playing the game
+Study 2 Advisees,advisor_rel_exp,Advisor - How experience are you compared to most people at the game
+Study 2 Advisees,advisor_rel_skill,Advisor - How skilled are you compared to most people at the game
+Study 2 Advisees,advisor_avg_perf,Advisor - How well you think the average person does on one round of the game you played today (avg num of words found in 1 minute
+Study 2 Advisees,advisor_prev_freq,Advisor - How often playing the game
+Study 2 Advisees,advisor_input,Advisor - Input device
+Study 2 Advisees,advisor_browser,Advisor - Browser
+Study 2 Advisees,advisor_adv_imp,Advisor - How much do you think your advice will help them improve?
+Study 2 Advisees,advisor_animals,Advisor - Animals named
+Study 2 Advisees,animals.wordcount,Number of animals named
+Study 2 Advisees,advisor_age,Advisor age
+Study 2 Advisees,advisor_gender,Advisor gender
+Study 2 Advisees,advisor_language,Advisor language
+Study 2 Advisees,advisor_language_TEXT,Advisor language (other)
+Study 2 Advisees,advisor_bugreport,Advisor bug report
+Study 2 Advisees,advisor_hyp,Advisor hypothesis
+Study 2 Advisees,advisor_comments,Advisor comments
+Study 2 Advisees,advisor_DO.BR.FL_3,Advisor display order
+Study 2 Advisees,cat_s,Score on board by name
+Study 2 Advisees,eise_s,Score on board by name
+Study 2 Advisees,demi_s,Score on board by name
+Study 2 Advisees,lnpk_s,Score on board by name
+Study 2 Advisees,mpeh_s,Score on board by name
+Study 2 Advisees,nwsr_s,Score on board by name
+Study 2 Advisees,woln_s,Score on board by name
+Study 2 Advisees,b1,First board seen
+Study 2 Advisees,b2,Second board seen
+Study 2 Advisees,b3,Third board seen
+Study 2 Advisees,b4,Fourth board seen
+Study 2 Advisees,b5,Fifth board seen
+Study 2 Advisees,b6,Sixth board seen
+Study 2 Advisees,s1,Score on first board
+Study 2 Advisees,s2,Score on second board
+Study 2 Advisees,s3,Score on third board
+Study 2 Advisees,s4,Score on fourth board
+Study 2 Advisees,s5,Score on fifth board
+Study 2 Advisees,s6,Score on sixth board
+Study 2 Advisees,advisor_mean,Advisor mean of all boards
+Study 2 Advisees,advisor_var,Advisor SE across all boards
+Study 2 Advisees,advisor_sd,Advisor SD across all boards
+Study 2 Advisees,advisor_median,Advisor Median of all boards
+Study 2 Advisees,advisor_advice_wordcount,Number of words in advice
+Study 2 Advisees,advisor_animals_wordcount,Number of animals named by advisor
+Study 3 Advisor Efficacy,advisor,Advisor ID
+Study 3 Advisor Efficacy,advice_text,Advice text
+Study 3 Advisor Efficacy,advisor_prev_exp,Advisor - Previous experience with the task
+Study 3 Advisor Efficacy,advisor_prev_last,Advisor - (if yes to previous) Most recent time playing before today
+Study 3 Advisor Efficacy,advisor_prev_first,Advisor - First time playing the game
+Study 3 Advisor Efficacy,advisor_rel_exp,Advisor - How experience are you compared to most people at the game
+Study 3 Advisor Efficacy,advisor_rel_skill,Advisor - How skilled are you compared to most people at the game
+Study 3 Advisor Efficacy,advisor_avg_perf,Advisor - How well you think the average person does on one round of the game you played today (avg num of words found in 1 minute
+Study 3 Advisor Efficacy,advisor_prev_freq,Advisor - How often playing the game
+Study 3 Advisor Efficacy,advisor_input,Advisor - Input device
+Study 3 Advisor Efficacy,advisor_browser,Advisor - Browser
+Study 3 Advisor Efficacy,advisor_adv_imp,Advisor - How much do you think your advice will help them improve?
+Study 3 Advisor Efficacy,advisor_age,Advisor age
+Study 3 Advisor Efficacy,advisor_gender,Advisor gender
+Study 3 Advisor Efficacy,advisor_mean,Advisor mean performance
+Study 3 Advisor Efficacy,advisor_var,Advisor performance SE
+Study 3 Advisor Efficacy,advisor_sd,Advisor performance SD
+Study 3 Advisor Efficacy,advisor_median,Advisor median performance
+Study 3 Advisor Efficacy,advisor_advice_wordcount,Number of words in advice
+Study 3 Advisor Efficacy,advisor_animals_wordcount,Number of animals named by advisor
+Study 3 Advisor Efficacy,advisor_efficacy,Advisor advice efficacy
+Study 3 Advisor Efficacy,upper,Advisor advice efficacy + 1 SE
+Study 3 Advisor Efficacy,lower,Advisor advice efficacy - 1 SE
+Study 3 Advisor Efficacy,rank,Advisor advice efficacy rank
+Study 3 Advisor Efficacy,eff_thirds,Advisor advice efficacy third
+Study 3 Advisor Efficacy,eff_3split,Advisor advice efficacy split (unused)
+Study 3,participant,Participant ID
+Study 3,ResponseID,Anonymized Qualtrics Response ID
+Study 3,ResponseID,Anonymized Qualtrics Response ID
+Study 3,Q_TotalDuration,Study duration in seconds
+Study 3,eise_c,Completion code
+Study 3,eise_s,Score
+Study 3,ad01,Item rating
+Study 3,ad02,Item rating
+Study 3,ad03,Item rating
+Study 3,ad04,Item rating
+Study 3,ad05,Item rating
+Study 3,ad06,Item rating
+Study 3,ad07,Item rating
+Study 3,ad08,Item rating
+Study 3,ad09,Item rating
+Study 3,ad10,Item rating
+Study 3,ad11,Item rating
+Study 3,ad12,Item rating
+Study 3,ad13,Item rating
+Study 3,ad14,Item rating
+Study 3,ad15,Item rating
+Study 3,ad16,Item rating
+Study 3,ad17,Item rating
+Study 3,ad18,Item rating
+Study 3,ad19,Item rating
+Study 3,ad20,Item rating
+Study 3,ad21,Item rating
+Study 3,ad22,Item rating
+Study 3,ad23,Item rating
+Study 3,ad24,Item rating
+Study 3,ad25,Item rating
+Study 3,ad26,Item rating
+Study 3,ad27,Item rating
+Study 3,ad28,Item rating
+Study 3,ad29,Item rating
+Study 3,ad30,Item rating
+Study 3,ad31,Item rating
+Study 3,ad32,Item rating
+Study 3,ad33,Item rating
+Study 3,ad34,Item rating
+Study 3,ad35,Item rating
+Study 3,ad36,Item rating
+Study 3,ad37,Item rating
+Study 3,ad38,Item rating
+Study 3,ad39,Item rating
+Study 3,ad40,Item rating
+Study 3,ad41,Item rating
+Study 3,ad42,Item rating
+Study 3,ad43,Item rating
+Study 3,ad44,Item rating
+Study 3,ad45,Item rating
+Study 3,ad46,Item rating
+Study 3,ad47,Item rating
+Study 3,ad48,Item rating
+Study 3,ad49,Item rating
+Study 3,ad50,Item rating
+Study 3,ad51,Item rating
+Study 3,ad52,Item rating
+Study 3,ad53,Item rating
+Study 3,ad54,Item rating
+Study 3,ad55,Item rating
+Study 3,ad56,Item rating
+Study 3,ad57,Item rating
+Study 3,ad58,Item rating
+Study 3,ad59,Item rating
+Study 3,ad60,Item rating
+Study 3,ad61,Item rating
+Study 3,ad62,Item rating
+Study 3,ad63,Item rating
+Study 3,ad64,Item rating
+Study 3,ad65,Item rating
+Study 3,ad66,Item rating
+Study 3,ad67,Item rating
+Study 3,ad68,Item rating
+Study 3,ad69,Item rating
+Study 3,ad70,Item rating
+Study 3,ad71,Item rating
+Study 3,ad72,Item rating
+Study 3,ad73,Item rating
+Study 3,ad74,Item rating
+Study 3,ad75,Item rating
+Study 3,ad76,Item rating
+Study 3,ad77,Item rating
+Study 3,ad78,Item rating
+Study 3,catch1,Catch item 1
+Study 3,catch2,Catch item 2
+Study 3,Q16,Qualtrics question display record
+Study 3,prev_exp,Previous experience with the task
+Study 3,prev_last,(if yes to previous) Most recent time playing before today
+Study 3,prev_first,First time playing the game
+Study 3,prev_freq,How often playing the game
+Study 3,rel_exp,How skilled are you compared to most people at the game
+Study 3,rel_skill,How experience are you compared to most people at the game
+Study 3,avg_perf_1_TEXT,How well do you think the average person does on one round of the game you played today (avg num of words found in 1 minute
+Study 3,input,Input device
+Study 3,input_TEXT,Input device (other)
+Study 3,browser,Browser
+Study 3,browser_TEXT,Browser (which)
+Study 3,age,Age
+Study 3,gender,Gender
+Study 3,catch,Attentional catch response
+Study 3,catch_TEXT,Attentional catch response (free response)
+Study 3,language,Language
+Study 3,language_TEXT,Language (other)
+Study 3,bugreport,"Reporting any bugs, errors or glitches in study"
+Study 3,hyp,Guessing what the hypothesis is
+Study 3,comments,Any other comments
+Study 3,HITcode,Did they submit a HIT code?
+Study 3,DO-BL-Advice,Item display order
+Study 3,exclude,Exclude?
+Study 3,exclude_why,Exclude (why)
+Study 3,r_1,Rating display order
+Study 3,r_2,Rating display order
+Study 3,r_3,Rating display order
+Study 3,r_4,Rating display order
+Study 3,r_5,Rating display order
+Study 3,r_6,Rating display order
+Study 3,r_7,Rating display order
+Study 3,r_8,Rating display order
+Study 3,r_9,Rating display order
+Study 3,r_10,Rating display order
+Study 3,r_11,Rating display order
+Study 3,r_12,Rating display order
+Study 3,r_13,Rating display order
+Study 3,r_14,Rating display order
+Study 3,r_15,Rating display order
+Study 3,r_16,Rating display order
+Study 3,r_17,Rating display order
+Study 3,r_18,Rating display order
+Study 3,r_19,Rating display order
+Study 3,r_20,Rating display order
+Study 3,r_21,Rating display order
+Study 3,r_22,Rating display order
+Study 3,r_23,Rating display order
+Study 3,r_24,Rating display order
+Study 3,r_25,Rating display order
+Study 3,r_26,Rating display order
+Study 3,s_1,Score by order
+Study 3,s_2,Score by order
+Study 3,s_3,Score by order
+Study 3,s_4,Score by order
+Study 3,s_5,Score by order
+Study 3,s_6,Score by order
+Study 3,s_7,Score by order
+Study 3,s_8,Score by order
+Study 3,s_9,Score by order
+Study 3,s_10,Score by order
+Study 3,s_11,Score by order
+Study 3,s_12,Score by order
+Study 3,s_13,Score by order
+Study 3,s_14,Score by order
+Study 3,s_15,Score by order
+Study 3,s_16,Score by order
+Study 3,s_17,Score by order
+Study 3,s_18,Score by order
+Study 3,s_19,Score by order
+Study 3,s_20,Score by order
+Study 3,s_21,Score by order
+Study 3,s_22,Score by order
+Study 3,s_23,Score by order
+Study 3,s_24,Score by order
+Study 3,s_25,Score by order
+Study 3,s_26,Score by order
+Study 4 Coder A,advice_id,Advisor ID
+Study 4 Coder A,advicetext,Advice text
+Study 4 Coder A,authoritative,authoritative rating
+Study 4 Coder A,actionable,actionable rating
+Study 4 Coder A,articulate,articulate rating
+Study 4 Coder A,amount,amount rating
+Study 4 Coder A,affirmatives,affirmatives rating
+Study 4 Coder A,negatives,negatives rating
+Study 4 Coder A,obviousness,obviousness rating
+Study 4 Coder B,advice_id,Advisor ID
+Study 4 Coder B,advicetext,Advice text
+Study 4 Coder B,authoritative,authoritative rating
+Study 4 Coder B,actionable,actionable rating
+Study 4 Coder B,articulate,articulate rating
+Study 4 Coder B,amount,amount rating
+Study 4 Coder B,affirmatives,affirmatives rating
+Study 4 Coder B,negatives,negatives rating
+Study 4 Coder B,obviousness,obviousness rating
+Study 4 Ratings,advisor,Advisor ID
+Study 4 Ratings,advice_text,Advice text
+Study 4 Ratings,wordcount,Advice wordcount
+Study 4 Ratings,TEACHER.perception.of.effectiveness,Advisor self efficacy
+Study 4 Ratings,age,Age
+Study 4 Ratings,gender,Gender
+Study 4 Ratings,TEACHER.PERFORMANCE.(low.is.bad),Advisor performance
+Study 4 Ratings,STUDENT.improvement,Advisee improvement
+Study 4 Ratings,STUDENT.Perception.of.advice.quality.(help),Advisee perceived helpfulness of advice
+Study 4 Ratings,STUDENT.perception.of.advice.quality.(improvement),Advisee perceived improvement of advice
+Study 4 Ratings,RATER.perception.of.advice.quality.(helpfulness),Mean helpfulness rating from Study 3
+Study S1 Advisors,advisor,Advisor ID
+Study S1 Advisors,advisornum,Advisor Code
+Study S1 Advisors,advisorThrow0,Throw score
+Study S1 Advisors,advisorThrow1,Throw score
+Study S1 Advisors,advisorThrow2,Throw score
+Study S1 Advisors,advisorThrow3,Throw score
+Study S1 Advisors,advisorThrow4,Throw score
+Study S1 Advisors,advisorThrow5,Throw score
+Study S1 Advisors,advisorThrow6,Throw score
+Study S1 Advisors,advisorThrow7,Throw score
+Study S1 Advisors,advisorThrow8,Throw score
+Study S1 Advisors,advisorThrow9,Throw score
+Study S1 Advisors,advisorThrow10,Throw score
+Study S1 Advisors,advisorThrow11,Throw score
+Study S1 Advisors,advisorThrow12,Throw score
+Study S1 Advisors,advisor_misses,Number of misses
+Study S1 Advisors,advisor_handed,Right or left handed
+Study S1 Advisors,advisor_obs,Were they watched
+Study S1 Advisors,advisor_playedbefore,Played before
+Study S1 Advisors,advisors_playedyears,How many years playing
+Study S1 Advisors,advisor_playedoften,How often playing
+Study S1 Advisors,advisor_adv_helpf,Predicted helpfulness
+Study S1 Advisors,advisor_well,Performance compared to average others
+Study S1 Advisors,advisor_advicebefore,Given advice about this before
+Study S1 Advisors,advisor_english,Advisor language
+Study S1 Advisors,advisor_age,Advisor age
+Study S1 Advisors,advisor_gender,Advisor gender
+Study S1 Advisors,advisor_hyp,Hypothesis guess
+Study S1 Advisors,advisor_advice_text,Advice text
+Study S1 Advisors,advisor_advice_wordcount,Advice wordcount
+Study S1 Advisees,participant,Participant ID
+Study S1 Advisees,log_duration,Duration
+Study S1 Advisees,log_condition,Condition
+Study S1 Advisees,advicecode,Advice code
+Study S1 Advisees,handed,Handedness
+Study S1 Advisees,observers,Observed during task?
+Study S1 Advisees,exclude,Exclude?
+Study S1 Advisees,exclude kind,What kind of exclusion
+Study S1 Advisees,exclude_why,Exclusion (why)
+Study S1 Advisees,throw1,Throw score
+Study S1 Advisees,throw2,Throw score
+Study S1 Advisees,throw3,Throw score
+Study S1 Advisees,throw4,Throw score
+Study S1 Advisees,throw5,Throw score
+Study S1 Advisees,throw6,Throw score
+Study S1 Advisees,throw7,Throw score
+Study S1 Advisees,throw8,Throw score
+Study S1 Advisees,throw9,Throw score
+Study S1 Advisees,throw10,Throw score
+Study S1 Advisees,throw11,Throw score
+Study S1 Advisees,throw12,Throw score
+Study S1 Advisees,condition,Condition
+Study S1 Advisees,playedbefore,Played before
+Study S1 Advisees,playedyearsago,How many years playing
+Study S1 Advisees,playedoften_txt,How often playing
+Study S1 Advisees,playedoften_num,How often playing
+Study S1 Advisees,adv_helpf,How helpful was advice
+Study S1 Advisees,advice_imp,How much did it help you improve
+Study S1 Advisees,useadvice,Did you use the advice
+Study S1 Advisees,english,Language
+Study S1 Advisees,age,Age
+Study S1 Advisees,gender,Gender
+Study S2 Advisors,advisor_pid,Advisor ID
+Study S2 Advisors,advisor,Advisor Code
+Study S2 Advisors,advisor_ResponseID,Advisor Response ID
+Study S2 Advisors,advisor_duration,Advisor Duration
+Study S2 Advisors,advisor_browser_meta,Advisor Browser
+Study S2 Advisors,advisor_consent_t_3,Advisor consent timing
+Study S2 Advisors,advisor_Intro_t_3,Advisor intro timing
+Study S2 Advisors,advisor_Line_t_3,Advisor practice timing
+Study S2 Advisors,advisor_Line2_c,Board score
+Study S2 Advisors,advisor_Practice_c,Board score
+Study S2 Advisors,advisor_itz_c,Board score
+Study S2 Advisors,advisor_iud_c,Board score
+Study S2 Advisors,advisor_hjt_c,Board score
+Study S2 Advisors,advisor_ypl_c,Board score
+Study S2 Advisors,advisor_sqt_c,Board score
+Study S2 Advisors,advisor_yto_c,Board score
+Study S2 Advisors,advisor_jfm_c,Board score
+Study S2 Advisors,advisor_kte_c,Board score
+Study S2 Advisors,advisor_bga_c,Board score
+Study S2 Advisors,advisor_lnc_c,Board score
+Study S2 Advisors,advisor_board_mean,Advisor board mean
+Study S2 Advisors,advisor_board_median,Advisor board median
+Study S2 Advisors,advisor_adv_inst_t_3,Timing info
+Study S2 Advisors,advisor_advice,Advice
+Study S2 Advisors,advisor_advice_t_3,Timing info
+Study S2 Advisors,advisor_subexp,"How experienced do you think you were with Colorlink before you took this study, compared to most people?"
+Study S2 Advisors,advisor_subskill,"How skilled do you think you were with Colorlink before you took this study, compared to most people?"
+Study S2 Advisors,advisor_input,Advisor input device
+Study S2 Advisors,advisor_browser_report,Advisor browser
+Study S2 Advisors,advisor_avg_perf,How well do you think the average person does at the game you played today?
+Study S2 Advisors,advisor_adv_eff_1,"Earlier in this study, you wrote advice to a future participant who will play the Colorlink game. How much do you think your advice will help them improve?"
+Study S2 Advisors,advisor_age,Advisor age
+Study S2 Advisors,advisor_gender,Advisor gender
+Study S2 Advisors,advisor_vision,Advisor color vision
+Study S2 Advisors,advisor_language,Advisor language
+Study S2 Advisors,advisor_language2,Advisor language (other)
+Study S2 Advisors,StudyGuess,Hypothesis guess
+Study S2 Advisors,Comments,Other comments
+Study S2 Advisors,advisor_board_order,Display order of boards
+Study S2 Advisors,advisor_b1,Board display order by name
+Study S2 Advisors,advisor_b2,Board display order by name
+Study S2 Advisors,advisor_b3,Board display order by name
+Study S2 Advisors,advisor_b4,Board display order by name
+Study S2 Advisors,advisor_b5,Board display order by name
+Study S2 Advisors,advisor_b6,Board display order by name
+Study S2 Advisors,advisor_b7,Board display order by name
+Study S2 Advisors,advisor_b8,Board display order by name
+Study S2 Advisors,advisor_b9,Board display order by name
+Study S2 Advisors,advisor_b10,Board display order by name
+Study S2 Advisors,advisor_s1,Board score by order
+Study S2 Advisors,advisor_s2,Board score by order
+Study S2 Advisors,advisor_s3,Board score by order
+Study S2 Advisors,advisor_s4,Board score by order
+Study S2 Advisors,advisor_s5,Board score by order
+Study S2 Advisors,advisor_s6,Board score by order
+Study S2 Advisors,advisor_s7,Board score by order
+Study S2 Advisors,advisor_s8,Board score by order
+Study S2 Advisors,advisor_s9,Board score by order
+Study S2 Advisors,advisor_s10,Board score by order
+Study S2 Advisors,exclude,Exclude?
+Study S2 Advisors,exclude_why,Exclusion (why)
+Study S2 Advisees,condition,Condition
+Study S2 Advisees,advisor,Advisor ID
+Study S2 Advisees,participant,Participant ID
+Study S2 Advisees,Answer.surveycode,Anonymized Qualtrics Response ID
+Study S2 Advisees,Finished,Did the participant finish the entire study?
+Study S2 Advisees,Q_TotalDuration,Anonymized Qualtrics Response ID
+Study S2 Advisees,iud_c,Board score
+Study S2 Advisees,advc_i_t_3,Timing info
+Study S2 Advisees,adv_t_3,Timing info
+Study S2 Advisees,hjt_c,Board score
+Study S2 Advisees,ypl_c,Board score
+Study S2 Advisees,sqt_c,Board score
+Study S2 Advisees,jfm_c,Board score
+Study S2 Advisees,lnc_c,Board score
+Study S2 Advisees,Prev.Games_1,Previous experience with the task
+Study S2 Advisees,Prev.Games_2,Previous experience with the task
+Study S2 Advisees,Prev.Games_3,Previous experience with the task
+Study S2 Advisees,Prev.Games_3_TEXT,Previous experience with the task
+Study S2 Advisees,Prev.Games_4,Previous experience with the task
+Study S2 Advisees,Play.Rate,How often played before
+Study S2 Advisees,PlayHistor,First time played before
+Study S2 Advisees,adv_skl,How skilled was advice writer compared to average people
+Study S2 Advisees,adv_comp,How skilled was advice writer compared to you
+Study S2 Advisees,adv_help_hyp,"If you had gotten advice, how helpful would it have been"
+Study S2 Advisees,adv_eff_hyp,"If you had gotten advice, how much would it have helped you improve"
+Study S2 Advisees,adv_help,How helpful was advice
+Study S2 Advisees,adv_eff_1,How much did it help you improve
+Study S2 Advisees,Subjec.Exp,"How experienced do you think you were with Colorlink before you took this study, compared to most people?"
+Study S2 Advisees,SubjSkill,"How skilled do you think you were with Colorlink before you took this study, compared to most people?"
+Study S2 Advisees,avg_perf_1_TEXT,How well do you think the average person does at the game you played today?
+Study S2 Advisees,adv_perf_1_TEXT,How well do you think the person who wrote your advice does at the game you played today?
+Study S2 Advisees,input,Input device
+Study S2 Advisees,input_TEXT,Input device (other)
+Study S2 Advisees,browser,Browser
+Study S2 Advisees,age,Age
+Study S2 Advisees,gender,Gender
+Study S2 Advisees,randomized_order,Display order of boards
+Study S2 Advisees,Exclude,Exclude?
+Study S2 Advisees,Exclude_why,Exclusion (why)
+Study S2 Advisees,baseline,Advisee baseline performance
+Study S2 Advisees,advisor_pid,Advisor ID
+Study S2 Advisees,advisor_start.date,Advisor Code
+Study S2 Advisees,advisor_ResponseID,Advisor Response ID
+Study S2 Advisees,advisor_duration,Advisor Duration
+Study S2 Advisees,advisor_browser_meta,Advisor Browser
+Study S2 Advisees,advisor_consent_t_3,Advisor consent timing
+Study S2 Advisees,advisor_Intro_t_3,Advisor intro timing
+Study S2 Advisees,advisor_Line_t_3,Advisor practice timing
+Study S2 Advisees,advisor_Line2_c,Board score
+Study S2 Advisees,advisor_Practice_c,Board score
+Study S2 Advisees,advisor_itz_c,Board score
+Study S2 Advisees,advisor_iud_c,Board score
+Study S2 Advisees,advisor_hjt_c,Board score
+Study S2 Advisees,advisor_ypl_c,Board score
+Study S2 Advisees,advisor_sqt_c,Board score
+Study S2 Advisees,advisor_yto_c,Board score
+Study S2 Advisees,advisor_jfm_c,Board score
+Study S2 Advisees,advisor_kte_c,Board score
+Study S2 Advisees,advisor_bga_c,Board score
+Study S2 Advisees,advisor_lnc_c,Board score
+Study S2 Advisees,advisor_board_mean,Advisor board mean
+Study S2 Advisees,advisor_board_median,Advisor board median
+Study S2 Advisees,advisor_adv_inst_t_3,Timing info
+Study S2 Advisees,advisor_advice,Advice
+Study S2 Advisees,advisor_advice_t_3,Timing info
+Study S2 Advisees,advisor_subexp,"How experienced do you think you were with Colorlink before you took this study, compared to most people?"
+Study S2 Advisees,advisor_subskill,"How skilled do you think you were with Colorlink before you took this study, compared to most people?"
+Study S2 Advisees,advisor_input,Advisor input device
+Study S2 Advisees,advisor_browser_report,Advisor browser
+Study S2 Advisees,advisor_avg_perf,How well do you think the average person does at the game you played today?
+Study S2 Advisees,advisor_adv_eff_1,"Earlier in this study, you wrote advice to a future participant who will play the Colorlink game. How much do you think your advice will help them improve?"
+Study S2 Advisees,advisor_age,Advisor age
+Study S2 Advisees,advisor_gender,Advisor gender
+Study S2 Advisees,advisor_vision,Advisor color vision
+Study S2 Advisees,advisor_language,Advisor language
+Study S2 Advisees,advisor_language2,Advisor language (other)
+Study S2 Advisees,StudyGuess.y,Hypothesis guess
+Study S2 Advisees,Comments.y,Other comments
+Study S2 Advisees,advisor_board_order,Display order of boards
+Study S2 Advisees,advisor_b1,Board display order by name
+Study S2 Advisees,advisor_b2,Board display order by name
+Study S2 Advisees,advisor_b3,Board display order by name
+Study S2 Advisees,advisor_b4,Board display order by name
+Study S2 Advisees,advisor_b5,Board display order by name
+Study S2 Advisees,advisor_b6,Board display order by name
+Study S2 Advisees,advisor_b7,Board display order by name
+Study S2 Advisees,advisor_b8,Board display order by name
+Study S2 Advisees,advisor_b9,Board display order by name
+Study S2 Advisees,advisor_b10,Board display order by name
+Study S2 Advisees,advisor_s1,Board score by order
+Study S2 Advisees,advisor_s2,Board score by order
+Study S2 Advisees,advisor_s3,Board score by order
+Study S2 Advisees,advisor_s4,Board score by order
+Study S2 Advisees,advisor_s5,Board score by order
+Study S2 Advisees,advisor_s6,Board score by order
+Study S2 Advisees,advisor_s7,Board score by order
+Study S2 Advisees,advisor_s8,Board score by order
+Study S2 Advisees,advisor_s9,Board score by order
+Study S2 Advisees,advisor_s10,Board score by order
+Study S2 Advisees,baseline,Advisee baseline performance
+Study S3a,Progress,Percent of study finished as measured by Qualtrics
+Study S3a,Duration (in seconds),Study duration in seconds
+Study S3a,Finished,Did the participant finish the entire study?
+Study S3a,ResponseId,Anonymized Qualtrics Response ID
+Study S3a,t_consent_First Click,Timing info: First click on page
+Study S3a,t_consent_Last Click,Timing info: Last click on page
+Study S3a,t_consent_Page Submit,Timing info: Total time to submit current page
+Study S3a,t_consent_Click Count,Timing info: Total number of clicks on page
+Study S3a,t_landing_First Click,Timing info: First click on page
+Study S3a,t_landing_Last Click,Timing info: Last click on page
+Study S3a,t_landing_Page Submit,Timing info: Total time to submit current page
+Study S3a,t_landing_Click Count,Timing info: Total number of clicks on page
+Study S3a,inst1_t_First Click,Timing info: First click on page
+Study S3a,inst1_t_Last Click,Timing info: Last click on page
+Study S3a,inst1_t_Page Submit,Timing info: Total time to submit current page
+Study S3a,inst1_t_Click Count,Timing info: Total number of clicks on page
+Study S3a,inst2_t_First Click,Timing info: First click on page
+Study S3a,inst2_t_Last Click,Timing info: Last click on page
+Study S3a,inst2_t_Page Submit,Timing info: Total time to submit current page
+Study S3a,inst2_t_Click Count,Timing info: Total number of clicks on page
+Study S3a,cat_t_First Click,Timing info: First click on page
+Study S3a,cat_t_Last Click,Timing info: Last click on page
+Study S3a,cat_t_Page Submit,Timing info: Total time to submit current page
+Study S3a,cat_t_Click Count,Timing info: Total number of clicks on page
+Study S3a,cat_c,Completion code
+Study S3a,eise_t_First Click,Timing info: First click on page
+Study S3a,eise_t_Last Click,Timing info: Last click on page
+Study S3a,eise_t_Page Submit,Timing info: Total time to submit current page
+Study S3a,eise_t_Click Count,Timing info: Total number of clicks on page
+Study S3a,eise_c,Completion code
+Study S3a,adv_inst_t_First Click,Timing info: First click on page
+Study S3a,adv_inst_t_Last Click,Timing info: Last click on page
+Study S3a,adv_inst_t_Page Submit,Timing info: Total time to submit current page
+Study S3a,adv_inst_t_Click Count,Timing info: Total number of clicks on page
+Study S3a,adv_long,How would receiving this advice affect the person's performance on the task? 
+Study S3a,adv_medium,How would receiving this advice affect the person's performance on the task? 
+Study S3a,adv_short,How would receiving this advice affect the person's performance on the task? 
+Study S3a,prev_exp,Previous experience with the task
+Study S3a,prev_freq,How often playing the game
+Study S3a,avg_perf_1,How skilled are you compared to most people at the game
+Study S3a,input,Input device
+Study S3a,input_7_TEXT,Input device (other)
+Study S3a,age,Participant age
+Study S3a,gender,Participant gender
+Study S3a,catch,Answer to attentional catch question
+Study S3a,catch_4_TEXT,Answer to attentional catch question (free repsonse)
+Study S3a,language,Language
+Study S3a,language_3_TEXT,Language (other)
+Study S3a,language_2_TEXT,Language (other)
+Study S3a,bugreport,"Reporting any bugs, errors or glitches in study"
+Study S3a,hyp,Guessing what the hypothesis is
+Study S3a,comments,Any other comments
+Study S3a,Fragment1,Embedded data to determine displayed advice text fragments
+Study S3a,Fragment2,Embedded data to determine displayed advice text fragments
+Study S3a,Fragment3,Embedded data to determine displayed advice text fragments
+Study S3a,Fragment4,Embedded data to determine displayed advice text fragments
+Study S3a,Fragment5,Embedded data to determine displayed advice text fragments
+Study S3a,Fragment6,Embedded data to determine displayed advice text fragments
+Study S3a,Fragment7,Embedded data to determine displayed advice text fragments
+Study S3a,F1,Embedded data to determine displayed advice text fragments
+Study S3a,F2,Embedded data to determine displayed advice text fragments
+Study S3a,F3,Embedded data to determine displayed advice text fragments
+Study S3a,F4,Embedded data to determine displayed advice text fragments
+Study S3a,frag_1,Embedded data to determine displayed advice text fragments
+Study S3a,frag_2,Embedded data to determine displayed advice text fragments
+Study S3a,frag_3,Embedded data to determine displayed advice text fragments
+Study S3a,frag_4,Embedded data to determine displayed advice text fragments
+Study S3a,frag_5,Embedded data to determine displayed advice text fragments
+Study S3a,frag_6,Embedded data to determine displayed advice text fragments
+Study S3a,frag_7,Embedded data to determine displayed advice text fragments
+Study S3a,frag_8,Embedded data to determine displayed advice text fragments
+Study S3a,frag_9,Embedded data to determine displayed advice text fragments
+Study S3a,frag_10,Embedded data to determine displayed advice text fragments
+Study S3a,frag_11,Embedded data to determine displayed advice text fragments
+Study S3a,full_1,Embedded data to determine displayed advice text fragments
+Study S3a,full_2,Embedded data to determine displayed advice text fragments
+Study S3a,full_3,Embedded data to determine displayed advice text fragments
+Study S3a,full_4,Embedded data to determine displayed advice text fragments
+Study S3a,full_5,Embedded data to determine displayed advice text fragments
+Study S3a,full_6,Embedded data to determine displayed advice text fragments
+Study S3a,full_7,Embedded data to determine displayed advice text fragments
+Study S3a,full_8,Embedded data to determine displayed advice text fragments
+Study S3a,full_9,Embedded data to determine displayed advice text fragments
+Study S3a,full_10,Embedded data to determine displayed advice text fragments
+Study S3a,full_11,Embedded data to determine displayed advice text fragments
+Study S3a,ResponseID,Anonymized Qualtrics Response ID
+Study S3a,Q_TotalDuration,Study duration in seconds
+Study S3a,inst_bar,Answer to instructional comprehension checks
+Study S3a,inst_crab,Answer to instructional comprehension checks
+Study S3a,inst_barb,Answer to instructional comprehension checks
+Study S3a,inst_mat,Answer to instructional comprehension checks
+Study S3a,advicerating_DO,Display order of sentences
+Study S3b,Progress,Percent of study finished as measured by Qualtrics
+Study S3b,Duration (in seconds),Study duration in seconds
+Study S3b,Finished,Did the participant finish the entire study?
+Study S3b,ResponseId,Anonymized Qualtrics Response ID
+Study S3b,t_consent_First Click,Timing info: First click on page
+Study S3b,t_consent_Last Click,Timing info: Last click on page
+Study S3b,t_consent_Page Submit,Timing info: Total time to submit current page
+Study S3b,t_consent_Click Count,Timing info: Total number of clicks on page
+Study S3b,t_landing_First Click,Timing info: First click on page
+Study S3b,t_landing_Last Click,Timing info: Last click on page
+Study S3b,t_landing_Page Submit,Timing info: Total time to submit current page
+Study S3b,t_landing_Click Count,Timing info: Total number of clicks on page
+Study S3b,inst1_t_First Click,Timing info: First click on page
+Study S3b,inst1_t_Last Click,Timing info: Last click on page
+Study S3b,inst1_t_Page Submit,Timing info: Total time to submit current page
+Study S3b,inst1_t_Click Count,Timing info: Total number of clicks on page
+Study S3b,inst2_t_First Click,Timing info: First click on page
+Study S3b,inst2_t_Last Click,Timing info: Last click on page
+Study S3b,inst2_t_Page Submit,Timing info: Total time to submit current page
+Study S3b,inst2_t_Click Count,Timing info: Total number of clicks on page
+Study S3b,cat_t_First Click,Timing info: First click on page
+Study S3b,cat_t_Last Click,Timing info: Last click on page
+Study S3b,cat_t_Page Submit,Timing info: Total time to submit current page
+Study S3b,cat_t_Click Count,Timing info: Total number of clicks on page
+Study S3b,cat_c,Completion code
+Study S3b,eise_t_First Click,Timing info: First click on page
+Study S3b,eise_t_Last Click,Timing info: Last click on page
+Study S3b,eise_t_Page Submit,Timing info: Total time to submit current page
+Study S3b,eise_t_Click Count,Timing info: Total number of clicks on page
+Study S3b,eise_c,Completion code
+Study S3b,adv_inst_t_First Click,Timing info: First click on page
+Study S3b,adv_inst_t_Last Click,Timing info: Last click on page
+Study S3b,adv_inst_t_Page Submit,Timing info: Total time to submit current page
+Study S3b,adv_inst_t_Click Count,Timing info: Total number of clicks on page
+Study S3b,adv_long_1,How would receiving this advice affect the person's performance on the task? 
+Study S3b,adv_medium_1,How would receiving this advice affect the person's performance on the task? 
+Study S3b,adv_short_1,How would receiving this advice affect the person's performance on the task? 
+Study S3b,prev_exp,Previous experience with the task
+Study S3b,prev_freq,How often playing the game
+Study S3b,avg_perf_1,How skilled are you compared to most people at the game
+Study S3b,input,Input device
+Study S3b,input_7_TEXT,Input device (other)
+Study S3b,age,Participant age
+Study S3b,gender,Participant gender
+Study S3b,catch,Answer to attentional catch question
+Study S3b,catch_4_TEXT,Answer to attentional catch question (free repsonse)
+Study S3b,language,Language
+Study S3b,language_3_TEXT,Language (other)
+Study S3b,language_2_TEXT,Language (other)
+Study S3b,bugreport,"Reporting any bugs, errors or glitches in study"
+Study S3b,hyp,Guessing what the hypothesis is
+Study S3b,comments,Any other comments
+Study S3b,Fragment1,Embedded data to determine displayed advice text fragments
+Study S3b,Fragment2,Embedded data to determine displayed advice text fragments
+Study S3b,Fragment3,Embedded data to determine displayed advice text fragments
+Study S3b,Fragment4,Embedded data to determine displayed advice text fragments
+Study S3b,Fragment5,Embedded data to determine displayed advice text fragments
+Study S3b,Fragment6,Embedded data to determine displayed advice text fragments
+Study S3b,Fragment7,Embedded data to determine displayed advice text fragments
+Study S3b,F1,Embedded data to determine displayed advice text fragments
+Study S3b,F2,Embedded data to determine displayed advice text fragments
+Study S3b,F3,Embedded data to determine displayed advice text fragments
+Study S3b,F4,Embedded data to determine displayed advice text fragments
+Study S3b,frag_1,Embedded data to determine displayed advice text fragments
+Study S3b,frag_2,Embedded data to determine displayed advice text fragments
+Study S3b,frag_3,Embedded data to determine displayed advice text fragments
+Study S3b,frag_4,Embedded data to determine displayed advice text fragments
+Study S3b,frag_5,Embedded data to determine displayed advice text fragments
+Study S3b,frag_6,Embedded data to determine displayed advice text fragments
+Study S3b,frag_7,Embedded data to determine displayed advice text fragments
+Study S3b,frag_8,Embedded data to determine displayed advice text fragments
+Study S3b,frag_9,Embedded data to determine displayed advice text fragments
+Study S3b,frag_10,Embedded data to determine displayed advice text fragments
+Study S3b,frag_11,Embedded data to determine displayed advice text fragments
+Study S3b,full_1,Embedded data to determine displayed advice text fragments
+Study S3b,full_2,Embedded data to determine displayed advice text fragments
+Study S3b,full_3,Embedded data to determine displayed advice text fragments
+Study S3b,full_4,Embedded data to determine displayed advice text fragments
+Study S3b,full_5,Embedded data to determine displayed advice text fragments
+Study S3b,full_6,Embedded data to determine displayed advice text fragments
+Study S3b,full_7,Embedded data to determine displayed advice text fragments
+Study S3b,full_8,Embedded data to determine displayed advice text fragments
+Study S3b,full_9,Embedded data to determine displayed advice text fragments
+Study S3b,full_10,Embedded data to determine displayed advice text fragments
+Study S3b,full_11,Embedded data to determine displayed advice text fragments
+Study S3b,ResponseID,Anonymized Qualtrics Response ID
+Study S3b,Q_TotalDuration,Study duration in seconds
+Study S3b,inst_bar,Answer to instructional comprehension checks
+Study S3b,inst_crab,Answer to instructional comprehension checks
+Study S3b,inst_barb,Answer to instructional comprehension checks
+Study S3b,inst_mat,Answer to instructional comprehension checks
+Study S3b,advicerating_DO,Display order of sentences
+Study S4a Advice Topics from Study 2,advisor,Advisor ID
+Study S4a Advice Topics from Study 2,advice_text,Advice Text
+Study S4a Advice Topics from Study 2,n_words,Category: Kinds of Words
+Study S4a Advice Topics from Study 2,n_letters,Category: Letters
+Study S4a Advice Topics from Study 2,n_mechanics,Category: Mechanics
+Study S4a Advice Topics from Study 2,n_spatial,Category: Spatial
+Study S4a Advice Topics from Study 2,n_speedPacingMindset,Category: Speed/Pacing/Mindset
+Study S4a Advice Topics from Study 2,n_wordLength,Category: Word Length
+Study S4b,participant,Participant ID
+Study S4b,Progress,Percent of study finished as measured by Qualtrics
+Study S4b,Duration..in.seconds.,Study duration in seconds
+Study S4b,Finished,Did the participant finish the entire study?
+Study S4b,ResponseId,Anonymized Qualtrics Response ID
+Study S4b,DistributionChannel,DistributionChannel
+Study S4b,UserLanguage,System language
+Study S4b,meta_Browser,Browser
+Study S4b,meta_Version,Browser version
+Study S4b,meta_Operating.System,OS
+Study S4b,meta_Resolution,Screen resolution
+Study S4b,cat_json,Completion code
+Study S4b,eise_json,Completion code
+Study S4b,lnpk_json,Completion code
+Study S4b,mpeh_json,Completion code
+Study S4b,woln_json,Completion code
+Study S4b,demi_json,Completion code
+Study S4b,nwsr_json,Completion code
+Study S4b,prev_exp,Previous experience with the task
+Study S4b,prev_last,(if yes to previous) Most recent time playing before today
+Study S4b,prev_first,First time playing the game
+Study S4b,prev_freq,How often playing the game
+Study S4b,adv_exp,How skilled was advice writer compared to average people
+Study S4b,adv_skill,How skilled was advice writer compared to you
+Study S4b,adv_helpf,How helpful was the advice
+Study S4b,adv_imp_1,How much did the advice help you improve
+Study S4b,rel_exp,How experience are you compared to most people at the game
+Study S4b,rel_skill,How skilled are you compared to most people at the game
+Study S4b,avg_perf_1,How well do you think the average person does on one round of the game you played today (avg num of words found in 1 minute
+Study S4b,adv_perf_1,How well do you think the person who wrote your advice does at the game you played today?
+Study S4b,input,Input device
+Study S4b,input_7_TEXT,Input device (other)
+Study S4b,browser,Browser
+Study S4b,browser_6_TEXT,Browser (other)
+Study S4b,animals,Animals named
+Study S4b,age,Age
+Study S4b,gender,Gender
+Study S4b,catch,Answer to attentional catch question
+Study S4b,catch_4_TEXT,Answer to attentional catch question (free repsonse)
+Study S4b,language,Language
+Study S4b,language_3_TEXT,Language (other)
+Study S4b,language_2_TEXT,Language (other)
+Study S4b,bugreport,"Reporting any bugs, errors or glitches in study"
+Study S4b,hyp,Guessing what the hypothesis is
+Study S4b,comments,Any other comments
+Study S4b,condition,Condition
+Study S4b,ResponseID,Anonymized Qualtrics Response ID
+Study S4b,Q_TotalDuration,Study duration in seconds
+Study S4b,inst_bar,Answer to instructional comprehension checks
+Study S4b,inst_crab,Answer to instructional comprehension checks
+Study S4b,inst_barb,Answer to instructional comprehension checks
+Study S4b,inst_mat,Answer to instructional comprehension checks
+Study S4b,eise_c,Board score
+Study S4b,lnpk_c,Board score
+Study S4b,mpeh_c,Board score
+Study S4b,woln_c,Board score
+Study S4b,demi_c,Board score
+Study S4b,nwsr_c,Board score
