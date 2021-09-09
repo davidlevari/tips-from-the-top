@@ -2,11 +2,11 @@
 #
 #  R Code to reproduce analyses from:
 #  "Tips From the Top: Do the best performers really give the best advice?"
-#  David Levari, Timothy Wilson & Daniel Gilbert, 2021
+#  David Levari, Timothy Wilson & Daniel Gilbert
 #  Code by David Levari
 #  email: david.levari@gmail.com
 #  please email me directly if you see any errors or have any questions.
-#  last update : 2021 June 21
+#  last update : 2021 September 8
 #
 ################################################################################################
 
@@ -68,6 +68,22 @@ allFits <- function(model){
 std.error <- function(x) {
   x <- x[!is.na(x)]
   sd(x,na.rm=TRUE) / sqrt(length(x))} #define standard error
+
+# Set default theme for journal-compliant GGPlots
+theme_journal <- function () { 
+  font <- "Helvetica"   #assign font family up front
+  theme_classic() %+replace%    #replace elements we want to change
+  theme(
+    axis.ticks = element_blank(),
+    # legend.key = element_blank(),
+    # legend.background = element_blank(),
+    # panel.grid = element_blank(),
+    axis.text = element_text(family = font,
+                             size = 9),
+    axis.title = element_text(family = font,
+                              size = 10)
+  )
+}
 
 # 2) Study 1 -----------------------------------
 
@@ -183,16 +199,16 @@ confint(study1.decileModel1) # confidence intervals
 study1.decileModel2 <- lmer(helpfulness~decile + (1|ResponseId), 
                             data = study1.decile)
 anova(study1.decileModel2,study1.decileModel1) # random slopes improve model fit
-anova(study1.decileModel2,study1.decileModel1)$Chisq
+anova(study1.decileModel2,study1.decileModel1)$Chisq[2]
 study1.decileModel3 <- lmer(helpfulness~decile + (decile - 1|ResponseId), 
                             data = study1.decile)
 anova(study1.decileModel3,study1.decileModel1) # random intercepts improve model fit
-anova(study1.decileModel3,study1.decileModel1)$Chisq
+anova(study1.decileModel3,study1.decileModel1)$Chisq[2]
 
 # FIGURE 1: Responses in the Decile Condition of Study 1
 figure1 <- ggplot(study1.decile,aes(x=decile,y=helpfulness)) + 
   stat_summary(fun="mean", geom="bar",fill="white",colour="black") +
-  stat_summary(fun.data=mean_cl_normal,geom="errorbar",width=.3) +
+  stat_summary(fun.data=mean_se,geom="errorbar",width=.3) +
   labs(x="Advisor's Performance Decile", y="Predicted Helpfulness") + 
   scale_x_continuous(trans="reverse",breaks=c(1:10),labels=c("1st","2nd","3rd",
                                                              "4th","5th","6th",
@@ -200,8 +216,7 @@ figure1 <- ggplot(study1.decile,aes(x=decile,y=helpfulness)) +
                                                              "10th")) + 
   expand_limits(y=c(0,7)) +
   scale_y_continuous(breaks=c(0:7)) +
-  theme(legend.position="none") + theme_bw() +
-  theme(panel.grid = element_blank()) +
+  theme_journal() +
   NULL
 figure1
 
@@ -227,6 +242,7 @@ figure2 <- ggplot(study1.percentileTable,aes(x=percentile,y=percentage)) +
   geom_bar(stat="identity", fill="white",color="black") +
   xlab("Performance Percentile Chosen") + ylab("Percent Who Chose") + theme_bw() +
   geom_segment(aes(x=0,y=0,xend=99,yend=0)) + 
+  theme_journal() +
   theme(panel.grid = element_blank()) +
   scale_x_continuous(breaks=c(0,25,50,75,99)) +
   NULL
@@ -290,8 +306,9 @@ study2.advisors.long.byboard <- melt(study2.advisors.wide,measure.vars = allboar
                                      variable.name = "board",value.name = "score")
 
 # ADVISOR PERFORMANCE
-study2.advisors.wide$advisormean <- apply(study2.advisors.wide[,c(allboards)],1,mean)
-summary(study2.advisors.wide$advisormean)
+study2.advisors.wide$advisormean <- 
+  apply(study2.advisors.wide[,c(allboards)],1,mean)
+summary(study2.advisors.wide$advisormean) # How many words found on average
 sd(study2.advisors.wide$advisormean)
 
 # Did advisors improve across rounds?
@@ -302,12 +319,14 @@ study2.model1b <- lmer(score ~ roundnum + (roundnum|participant),
                        data=study2.advisors.long)
 summary(study2.model1b)
 anova(study2.model1a,study2.model1b) # random slopes do not improve model fit
-anova(study2.model1a,study2.model1b)$Chisq 
+anova(study2.model1a,study2.model1b)$Chisq[2]
 confint(study2.model1a)
 
-# Advisor's perceptions of advice quality
-summary(study2.advisors.wide$advice_wordcount) # advice wordcount
-sd(study2.advisors.wide$advice_wordcount) # advice wordcount SD
+#Advice wordcount
+summary(study2.advisors.wide$advice_wordcount) # mean
+sd(study2.advisors.wide$advice_wordcount) # SD
+
+# Advisor's expectations of advice quality
 summary(study2.advisors.wide$adv_imp_1) # predictions of advice efficacy
 sd(study2.advisors.wide$adv_imp_1) # SD of predictions of advice efficacy
 cor.test(study2.advisors.wide$adv_imp_1,study2.advisors.wide$advisor_mean)
@@ -319,7 +338,7 @@ figure3 <- ggplot(study2.advisors.wide,aes(x=advisor_mean,y=adv_imp_1)) +
   stat_smooth(method="lm",colour="black") + 
   labs(x="Advisor Performance",y="Advisor Rating of Advice Quality") +
   xlim(0,28) + scale_x_continuous(breaks=c(0,5,10,15,20,25)) +
-  theme_bw() + 
+  theme_journal() + 
   theme(panel.grid = element_blank()) +
   NULL
 figure3
@@ -358,9 +377,10 @@ study2.advisees_wide$totalwordsfound <- apply(study2.advisees_wide[,allboards],
                                               1,sum)
 study2.advisees_wide <- study2.advisees_wide[which(
   study2.advisees_wide$totalwordsfound != 0),] # remove participants with no words found
+
+# Exclude the advisee who reported switching from trackpad to mouse mid-task
 study2.advisees_wide <- study2.advisees_wide[!study2.advisees_wide$participant 
                                              %in% c(162),]
-# 162 - switched from trackpad to mouse
 
 # Descriptive stats, all advisees post exclusions
 nrow(study2.advisees_wide) 
@@ -408,46 +428,47 @@ study2.advisees_long$boardnum <- as.numeric(study2.advisees_long$board)
 # Advisee's performance
 
 # Baseline difference between conditions?
-bartlett.test(baseline ~ condition, data=study2.advisees_wide) # equal variances
+bartlett.test(baseline ~ condition, data=study2.advisees_wide) 
 t.test(study2.advisees_wide$baseline ~ study2.advisees_wide$condition) 
 cohensD(study2.advisees_wide$baseline ~ study2.advisees_wide$condition) 
 
 # Pre-post advice difference by condition?
-bartlett.test(pdiffmean ~ condition, data=study2.advisees_wide) # equal variances
+bartlett.test(pdiffmean ~ condition, data=study2.advisees_wide) 
 t.test(study2.advisees_wide$pdiffmean ~ study2.advisees_wide$condition)
 cohensD(study2.advisees_wide$pdiffmean ~ study2.advisees_wide$condition)
 
 # Models: Does advisor performance predict advisee score?
 study2.model2a <- lmer(score ~ (boardnum + advisor_mean)^2 + (boardnum|participant), 
                       data = study2.advisees_long)
-summary(study2.model2a)
-allFits(study2.model2a) # diagnose convergence issue
+summary(study2.model2a) # convergence warning but let's examine on next line
+allFits(study2.model2a) # diagnose convergence issue, looks fine
 confint(study2.model2a)
 
-# Test without interaction between terms
+# Compare simpler model without interaction between terms
 study2.model2b <- lmer(score ~ boardnum + advisor_mean + (boardnum|participant), 
                       data = study2.advisees_long)
 summary(study2.model2b)
 anova(study2.model2b,study2.model2a) # does interaction improve model fit?
 
-# Test without random intercept term
+# Compare simpler model without random intercept term
 study2.model2c <- lmer(score ~ (boardnum + advisor_mean)^2 + (boardnum-1|participant), 
                        data = study2.advisees_long)
 summary(study2.model2c)
 anova(study2.model2a,study2.model2c)
 
-# Test without random slope term
+# Compare simpler model without random slope term
 study2.model2d <- lmer(score ~ (boardnum + advisor_mean)^2 + (1|participant), 
                        data = study2.advisees_long)
 summary(study2.model2d)
 anova(study2.model2a,study2.model2d)
 
 # FIGURE 4: The Relationship Between Advisors’ Performances and Advisee’s Improvement in Study 2
-figure4 <- ggplot(study2.advisees_wide,aes(x=advisor_mean,y=pdiffmean)) + geom_point() +
+figure4 <- ggplot(study2.advisees_wide[study2.advisees_wide$condition=="treatment",],
+                  aes(x=advisor_mean,y=pdiffmean)) + geom_point() +
   stat_smooth(method="lm",colour="black") + xlab("Advisor Performance") + 
   ylab("Advisee Improvement") +
-  xlim(0,28) + scale_x_continuous(breaks=c(0,5,15,25)) +
-  theme_bw() + 
+  xlim(0,28) + scale_x_continuous(breaks=c(0,5,10,15,20,25)) +
+  theme_journal() + 
   theme(panel.grid = element_blank()) +
   NULL
 figure4
@@ -485,8 +506,8 @@ cor.test(study2.advisorMeans$advisor_mean, study2.advisorMeans$mean_imp)
 figure5 <- ggplot(study2.advisorMeans,aes(x=advisor_mean,y=mean_helpf)) + geom_point() +
   stat_smooth(method="lm",colour="black")  + 
   labs(x="Advisor Performance",  y="Advisee Rating of Helpfulness") +
-  xlim(0,28) + scale_x_continuous(breaks=c(0,5,15,25)) +
-  theme_bw() + theme_classic() +
+  xlim(0,28) + scale_x_continuous(breaks=c(0,5,10,15,20,25)) +
+  theme_journal() +
   theme(panel.grid = element_blank()) +
   NULL
 figure5
@@ -552,7 +573,7 @@ figure6 <- ggplot(study3.advisors, aes(x=advisor_mean,y=mean_rating)) + geom_poi
   stat_smooth(method="lm",colour="black") +
   labs(x= "Advisor Performance", y="Participant Rating of Effectiveness") +
   scale_x_continuous(breaks=c(0,5,10,15,20,25)) +
-  theme_bw() +
+  theme_journal() +
   theme(panel.grid = element_blank()) +
   NULL
 figure6
@@ -569,13 +590,13 @@ study4.data$advicetext.a <- NULL
 rm(study4.coderA,study4.coderB)
 
 # Create names of different coding category variables
-ath <- names(study4.data)[c(2,10)]
-act <- names(study4.data)[c(3,11)]
-art <- names(study4.data)[c(4,12)]
-amt <- names(study4.data)[c(5,13)]
-aff <- names(study4.data)[c(6,14)]
-neg <- names(study4.data)[c(7,15)]
-obv <- names(study4.data)[c(8,16)]
+ath <- names(study4.data)[c(2,9)]
+act <- names(study4.data)[c(3,10)]
+art <- names(study4.data)[c(4,11)]
+amt <- names(study4.data)[c(5,12)]
+aff <- names(study4.data)[c(6,13)]
+neg <- names(study4.data)[c(7,14)]
+obv <- names(study4.data)[c(8,15)]
 allvars <- c("ath","act","art","amt","aff","neg","obv")
 
 # Reliability analysis
@@ -585,22 +606,21 @@ for (i in 1:length(allvars)){
   study4.alpha$cronbach[i] <- cronbach.alpha(study4.data[,get(allvars[i])])$alpha
 }
 study4.alpha <- study4.alpha[,3:4]
-study4.alpha
+study4.alpha # Cronbach's alphas for all seven properties
 
 # Average together RA ratings
-study4.data$ath <- apply(study4.data[,c(2,10)],1,mean)
-study4.data$act <- apply(study4.data[,c(3,11)],1,mean)
-study4.data$art <- apply(study4.data[,c(4,12)],1,mean)
-study4.data$amt <- apply(study4.data[,c(5,13)],1,mean)
-study4.data$aff <- apply(study4.data[,c(6,14)],1,mean)
-study4.data$neg <- apply(study4.data[,c(7,15)],1,mean)
-study4.data$obv <- apply(study4.data[,c(8,16)],1,mean)
+study4.data$ath <- apply(study4.data[,ath],1,mean)
+study4.data$act <- apply(study4.data[,act],1,mean)
+study4.data$art <- apply(study4.data[,art],1,mean)
+study4.data$amt <- apply(study4.data[,amt],1,mean)
+study4.data$aff <- apply(study4.data[,aff],1,mean)
+study4.data$neg <- apply(study4.data[,neg],1,mean)
+study4.data$obv <- apply(study4.data[,obv],1,mean)
 
 study4.ratings <- read.csv("study4_ratings.csv",header=TRUE)
 
 names(study4.ratings) <- c("advisor",
                          "advicetext",
-                         "daviddannotes",
                          "wordcount",
                          "self_eff",
                          "age",
@@ -611,7 +631,7 @@ names(study4.ratings) <- c("advisor",
                          "imp",
                          "turkrating")
 
-study4.ratings <- merge(study4.ratings,study4.data[,c(1,19:25)],by.x="advisor",
+study4.ratings <- merge(study4.ratings,study4.data[,c(1,17:18,20:23)],by.x="advisor",
                         by.y="advice_id")
 
 # Standardize ratings by task
@@ -675,10 +695,12 @@ study4.ratings$perceivedQuality <- apply(study4.ratings[,c("helpfZ","impZ")],1,m
 # Mediation analysis
 perceivedQuality.model.m <- lm(amt~ability,data=study4.ratings)
 perceivedQuality.model.y <- lm(perceivedQuality~ability+amt,data=study4.ratings)
-summary(perceivedQuality.model.y)
+summary(perceivedQuality.model.m)
+summary(perceivedQuality.model.y) 
 confint(perceivedQuality.model.y)
 perceivedQuality.model.m2 <- lm(perceivedQuality~ability,data=study4.ratings)
 perceivedQuality.model.y2 <- lm(amt~ability+perceivedQuality,data=study4.ratings)
+summary(perceivedQuality.model.m2)
 
 perceivedQuality.med.out <- mediation::mediate(perceivedQuality.model.m, 
                                                perceivedQuality.model.y, sims = 10000, 
@@ -692,9 +714,65 @@ perceivedQuality.med.out <- mediation::mediate(perceivedQuality.model.m,
                                                group.out = NULL)
 
 summary(perceivedQuality.med.out)
-plot(perceivedQuality.med.out,labels=c("Indirect effect","Direct effect",
-                                       "Total effect"),
-             xlab="Estimate")
+
+# Function to extract mediation results for plotting
+extract_mediation_summary <- function (x) { 
+  clp <- 100 * x$conf.level
+  isLinear.y <- ((class(x$model.y)[1] %in% c("lm", "rq")) || 
+                   (inherits(x$model.y, "glm") && x$model.y$family$family == 
+                      "gaussian" && x$model.y$family$link == "identity") || 
+                   (inherits(x$model.y, "survreg") && x$model.y$dist == 
+                      "gaussian"))
+  printone <- !x$INT && isLinear.y
+  if (printone) {
+    smat <- c(x$d1, x$d1.ci, x$d1.p)
+    smat <- rbind(smat, c(x$z0, x$z0.ci, x$z0.p))
+    smat <- rbind(smat, c(x$tau.coef, x$tau.ci, x$tau.p))
+    smat <- rbind(smat, c(x$n0, x$n0.ci, x$n0.p))
+    rownames(smat) <- c("ACME", "ADE", "Total Effect", "Prop. Mediated")
+  } else {
+    smat <- c(x$d0, x$d0.ci, x$d0.p)
+    smat <- rbind(smat, c(x$d1, x$d1.ci, x$d1.p))
+    smat <- rbind(smat, c(x$z0, x$z0.ci, x$z0.p))
+    smat <- rbind(smat, c(x$z1, x$z1.ci, x$z1.p))
+    smat <- rbind(smat, c(x$tau.coef, x$tau.ci, x$tau.p))
+    smat <- rbind(smat, c(x$n0, x$n0.ci, x$n0.p))
+    smat <- rbind(smat, c(x$n1, x$n1.ci, x$n1.p))
+    smat <- rbind(smat, c(x$d.avg, x$d.avg.ci, x$d.avg.p))
+    smat <- rbind(smat, c(x$z.avg, x$z.avg.ci, x$z.avg.p))
+    smat <- rbind(smat, c(x$n.avg, x$n.avg.ci, x$n.avg.p))
+    rownames(smat) <- c("ACME (control)", "ACME (treated)", 
+                        "ADE (control)", "ADE (treated)", "Total Effect", 
+                        "Prop. Mediated (control)", "Prop. Mediated (treated)", 
+                        "ACME (average)", "ADE (average)", "Prop. Mediated (average)")
+  }
+  colnames(smat) <- c("Estimate", paste(clp, "% CI Lower", sep = ""), 
+                      paste(clp, "% CI Upper", sep = ""), "p-value")
+  smat
+}
+
+perceivedQuality.med.out.df <- data.frame(extract_mediation_summary(perceivedQuality.med.out))
+rownames(perceivedQuality.med.out.df) <- c("Indirect Effect","Direct Effect",
+                                          "Total Effect","Prop Mediated")
+perceivedQuality.med.out.df <- tibble::rownames_to_column(perceivedQuality.med.out.df,"Effect")
+perceivedQuality.med.out.df <- perceivedQuality.med.out.df[perceivedQuality.med.out.df$Effect!="Prop Mediated",]
+perceivedQuality.med.out.df$Effect <- factor(perceivedQuality.med.out.df$Effect, 
+                                       levels=c("Total Effect",
+                                                "Direct Effect",
+                                                "Indirect Effect"))
+
+# FIGURE 8: Effect sizes of mediation analysis in Study 4
+figure8 <- ggplot(perceivedQuality.med.out.df,
+                  aes(x=Effect,y=Estimate)) +
+                  geom_point() +
+                  geom_hline(yintercept=0,linetype="dashed") +
+                  geom_errorbar(aes(ymin=X95..CI.Lower, ymax=X95..CI.Upper),
+                                width=0,position=position_dodge(.9)) +
+                  coord_flip() + theme_journal() +
+                  scale_y_continuous(breaks=c(seq(0,.12,.02))) +
+                  theme(axis.title.y=element_blank()) +
+                  NULL
+figure8  
 
 # 6) Study S1 (Darts) ----------------------------------------------------
 
@@ -766,13 +844,16 @@ sd(studyS1.advisors.wide$advisormean,na.rm=TRUE)
 studyS1.advisor.model1a <- lmer(accuracy ~ thrownum + (thrownum|advisor),
                                 data=studyS1.advisors.long)
 summary(studyS1.advisor.model1a)
-allFits(studyS1.advisor.model1a) # diagnose convergence issue
+allFits(studyS1.advisor.model1a) # diagnose convergence issue, looks fine
 confint(studyS1.advisor.model1a)
 
+# Compare simpler model without random slopes
 studyS1.advisor.model1b <- lmer(accuracy ~ thrownum + (1|advisor),
                                 data=studyS1.advisors.long)
 summary(studyS1.advisor.model1b)
-anova(studyS1.advisor.model1b,studyS1.advisor.model1a) # random slopes marginally improve model fit
+anova(studyS1.advisor.model1b,studyS1.advisor.model1a) # random slopes don't really improve model fit
+
+# Compare simpler model without random intercepts
 studyS1.advisor.model1c <- lmer(accuracy ~ thrownum + (thrownum - 1|advisor),
                                 data=studyS1.advisors.long)
 summary(studyS1.advisor.model1c)
@@ -920,8 +1001,8 @@ figureS1 <- ggplot(studyS1.advisees.wide,aes(x=advisormean,y=meanprepost)) + geo
   stat_smooth(method="lm",colour="black") + xlab("Advisor Performance") + 
   ylab("Advisee Improvement") +
   # xlim(,10) + 
-  theme_bw() + 
-  theme(panel.grid = element_blank()) +
+  theme_journal() + 
+  # theme(panel.grid = element_blank()) +
   NULL
 figureS1
 
@@ -1096,8 +1177,7 @@ figureS3 <- ggplot(studyS2.advisees.wide,aes(x=log(advisor_board_mean),y=pdiffme
   stat_smooth(method="lm",colour="black") + xlab("Advisor Performance") + 
   ylab("Advisee Improvement") +
   # xlim(,10) + 
-  theme_bw() + 
-  theme(panel.grid = element_blank()) +
+  theme_journal() + 
   NULL
 figureS3
 
@@ -1228,8 +1308,7 @@ figureS4 <- ggplot(allTasks.permutationData,aes(x=simCorr)) +
   lims(x=c(-.1,.9)) +
   labs(x="Average Inter-item Correlation",
        y="Count in 1000 Simulations") +
-  theme_bw() + 
-  theme(panel.grid = element_blank()) +
+  theme_journal() + 
   NULL
 figureS4
 
@@ -1466,8 +1545,7 @@ figureS5 <- ggplot(allTasks.permutationData_helpf,aes(x=simVar)) +
   lims(x=c(.28,.55)) +
   labs(x="Average Intra-item Standard Error",
        y="Count in 1000 Simulations") +
-  theme_bw() + 
-  theme(panel.grid = element_blank()) +
+  theme_journal() + 
   NULL
 figureS5
 
@@ -1498,7 +1576,7 @@ figureS6 <- ggplot(allTasks.permutationData_imp,aes(x=simVar)) +
   lims(x=c(1,6.6)) +
   labs(x="Average Intra-item Standard Error",
        y="Count in 1000 Simulations") +
-  theme_bw() +   theme(panel.grid = element_blank()) +
+  theme_journal() +
   NULL
 figureS6
 
@@ -1629,13 +1707,13 @@ studyS3b.wide <- read.csv("studyS3b_data.csv",header=TRUE,na.strings="")
 studyS3a.wide <- studyS3a.wide[studyS3a.wide$Finished=="TRUE",] 
 studyS3b.wide <- studyS3b.wide[studyS3b.wide$Finished=="TRUE",] 
 
-# Study S3 sample demographics, pre exclusion
+# Study S3a sample demographics, pre exclusion
 nrow(studyS3a.wide) # number of participants
 count(studyS3a.wide$gender)
 summary(studyS3a.wide$age)
 sd(studyS3a.wide$age,na.rm=TRUE)
 
-# Study S4 sample demographics, pre exclusion
+# Study S3b sample demographics, pre exclusion
 nrow(studyS3b.wide) # number of participants
 count(studyS3b.wide$gender)
 summary(studyS3b.wide$age)
@@ -1690,13 +1768,13 @@ studyS3a3b.long$advicelength <- revalue(studyS3a3b.long$advicelength,
                                          "adv_medium" = "medium",
                                          "adv_long" = "long"))
 
-# Mean advice rating for Study S3 by length
+# Mean advice rating for Study S3a and S3b by length
 aggregate(rating ~ advicelength + condition, 
           studyS3a3b.long[studyS3a3b.long$condition=="advice rating",], mean)
 aggregate(rating ~ advicelength + condition, 
           studyS3a3b.long[studyS3a3b.long$condition=="advice rating",], sd)
 
-# Regression models for Study S3
+# Regression models
 
 studyS3a3b.long <- within(studyS3a3b.long, advicelength <- relevel(advicelength,                                                     
                                                                  ref = "short"))
@@ -1720,7 +1798,7 @@ aggregate(rating ~ advicelength + condition,
 aggregate(rating ~ advicelength + condition, 
           studyS3a3b.long[studyS3a3b.long$condition=="perceived advisor performance",], sd)
 
-# Regression models for Study S4
+# Regression models
 
 studyS3a3b.long <- within(studyS3a3b.long, advicelength <- relevel(advicelength,                                                     
                                                                  ref = "short"))
@@ -1767,7 +1845,7 @@ aggregate(firsttrial ~ trial1,data=studyS3a3b.long
 
 # Import study 2 topic coding
 
-study2.adviceTopics.raw <- read.csv("study2_advice_topics.csv",header=TRUE)
+study2.adviceTopics.raw <- read.csv("studyS4a_advice_topics_from_study2.csv",header=TRUE)
 study2.adviceTopics.raw$advisor <- factor(study2.adviceTopics.raw$advisor)
 
 # merge study 2 topic coding with study 2 data
@@ -1962,15 +2040,16 @@ confint(studyS4b.model1a.releveled2)
 
 # 15) Generate figure images --------------------------------------------------
 
-ggsave("figure1.png",figure1,w=6,h=3)
-ggsave("figure2.png",figure2,w=6,h=3)
-ggsave("figure3.png",figure3,w=6,h=3)
-ggsave("figure4.png",figure4,w=6,h=3)
-ggsave("figure5.png",figure5,w=6,h=3)
-ggsave("figure6.png",figure6,w=6,h=3)
-ggsave("figureS1.png",figureS1,w=6,h=3)
-ggsave("figureS3.png",figureS3,w=6,h=3)
-ggsave("figureS4.png",figureS4,w=6,h=5)
-ggsave("figureS5.png",figureS5,w=6,h=5)
-ggsave("figureS6.png",figureS6,w=6,h=5)
+ggsave("LevariFig1.pdf",figure1,w=6,h=3)
+ggsave("LevariFig2.pdf",figure2,w=6,h=3)
+ggsave("LevariFig3.pdf",figure3,w=6,h=3)
+ggsave("LevariFig4.pdf",figure4,w=6,h=3)
+ggsave("LevariFig5.pdf",figure5,w=6,h=3)
+ggsave("LevariFig6.pdf",figure6,w=6,h=3)
+ggsave("LevariFig8.pdf",figure8,w=6,h=3)
+ggsave("LevariFigS1.pdf",figureS1,w=6,h=3)
+ggsave("LevariFigS3.pdf",figureS3,w=6,h=3)
+ggsave("LevariFigS4.pdf",figureS4,w=6,h=5)
+ggsave("LevariFigS5.pdf",figureS5,w=6,h=5)
+ggsave("LevariFigS6.pdf",figureS6,w=6,h=5)
 
