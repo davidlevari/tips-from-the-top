@@ -1203,6 +1203,9 @@ cor.test(studyS2.advisors.summary$advisor_imp,studyS2.advisors.summary$advisor_b
 
 # 8) Task Performance Permutation Tests -------------------------
 
+# Note -- the sections below often are calling data loaded above; you should run 
+# the entire script to this point for the code in these sections to work properly
+
 # Word Scramble Permutation Test (Study 2)
 
 study2.advisorBoards <- names(study2.advisors.wide[,
@@ -1299,6 +1302,9 @@ allTasks.permutationData$simCorr <- as.numeric(allTasks.permutationData$simCorr)
 allTasks.permutationData$rObs <- as.numeric(allTasks.permutationData$rObs)
 
 str(allTasks.permutationData)
+allTasks.permutationData$task <- factor(allTasks.permutationData$task)
+allTasks.permutationData$task <- relevel(allTasks.permutationData$task,
+                                         "Word Scramble")
 
 figureS4 <- ggplot(allTasks.permutationData,aes(x=simCorr)) + 
   geom_histogram(color="black",fill="white",bins=100) +
@@ -1537,6 +1543,10 @@ allTasks.permutationData_helpf$simVar <- as.numeric(allTasks.permutationData_hel
 allTasks.permutationData_helpf$rObs <- as.numeric(allTasks.permutationData_helpf$rObs)
 str(allTasks.permutationData_helpf)
 
+allTasks.permutationData_helpf$task <- factor(allTasks.permutationData_helpf$task)
+allTasks.permutationData_helpf$task <- relevel(allTasks.permutationData_helpf$task,
+                                         "Word Scramble")
+
 figureS5 <- ggplot(allTasks.permutationData_helpf,aes(x=simVar)) + 
   geom_histogram(color="black",fill="white",bins=100) +
   facet_grid(rows=vars(task)) +
@@ -1567,6 +1577,10 @@ str(allTasks.permutationData_imp)
 allTasks.permutationData_imp$simVar <- as.numeric(allTasks.permutationData_imp$simVar)
 allTasks.permutationData_imp$rObs <- as.numeric(allTasks.permutationData_imp$rObs)
 str(allTasks.permutationData_imp)
+
+allTasks.permutationData_imp$task <- factor(allTasks.permutationData_imp$task)
+allTasks.permutationData_imp$task <- relevel(allTasks.permutationData_imp$task,
+                                               "Word Scramble")
 
 figureS6 <- ggplot(allTasks.permutationData_imp,aes(x=simVar)) + 
   geom_histogram(color="black",fill="white",bins=100) +
