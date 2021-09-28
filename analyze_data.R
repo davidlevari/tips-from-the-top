@@ -6,7 +6,7 @@
 #  Code by David Levari
 #  email: david.levari@gmail.com
 #  please email me directly if you see any errors or have any questions.
-#  last update : 2021 September 8
+#  last update : 2021 September 27
 #
 ################################################################################################
 
@@ -1304,6 +1304,8 @@ allTasks.permutationData$rObs <- as.numeric(allTasks.permutationData$rObs)
 str(allTasks.permutationData)
 allTasks.permutationData$task <- factor(allTasks.permutationData$task)
 allTasks.permutationData$task <- relevel(allTasks.permutationData$task,
+                                         "Darts")
+allTasks.permutationData$task <- relevel(allTasks.permutationData$task,
                                          "Word Scramble")
 
 figureS4 <- ggplot(allTasks.permutationData,aes(x=simCorr)) + 
@@ -1315,6 +1317,7 @@ figureS4 <- ggplot(allTasks.permutationData,aes(x=simCorr)) +
   labs(x="Average Inter-item Correlation",
        y="Count in 1000 Simulations") +
   theme_journal() + 
+  theme(panel.border = element_rect(colour = "black", fill=NA, size=.75)) +
   NULL
 figureS4
 
@@ -1545,6 +1548,8 @@ str(allTasks.permutationData_helpf)
 
 allTasks.permutationData_helpf$task <- factor(allTasks.permutationData_helpf$task)
 allTasks.permutationData_helpf$task <- relevel(allTasks.permutationData_helpf$task,
+                                               "Darts")
+allTasks.permutationData_helpf$task <- relevel(allTasks.permutationData_helpf$task,
                                          "Word Scramble")
 
 figureS5 <- ggplot(allTasks.permutationData_helpf,aes(x=simVar)) + 
@@ -1556,6 +1561,7 @@ figureS5 <- ggplot(allTasks.permutationData_helpf,aes(x=simVar)) +
   labs(x="Average Intra-item Standard Error",
        y="Count in 1000 Simulations") +
   theme_journal() + 
+  theme(panel.border = element_rect(colour = "black", fill=NA, size=.75)) +
   NULL
 figureS5
 
@@ -1580,6 +1586,8 @@ str(allTasks.permutationData_imp)
 
 allTasks.permutationData_imp$task <- factor(allTasks.permutationData_imp$task)
 allTasks.permutationData_imp$task <- relevel(allTasks.permutationData_imp$task,
+                                             "Darts")
+allTasks.permutationData_imp$task <- relevel(allTasks.permutationData_imp$task,
                                                "Word Scramble")
 
 figureS6 <- ggplot(allTasks.permutationData_imp,aes(x=simVar)) + 
@@ -1591,6 +1599,7 @@ figureS6 <- ggplot(allTasks.permutationData_imp,aes(x=simVar)) +
   labs(x="Average Intra-item Standard Error",
        y="Count in 1000 Simulations") +
   theme_journal() +
+  theme(panel.border = element_rect(colour = "black", fill=NA, size=.75)) +
   NULL
 figureS6
 
